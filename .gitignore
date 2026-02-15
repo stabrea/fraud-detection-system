@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project artifacts
+output/
+model_output/
+plots/
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.local
+
+# Generated data (keep samples)
+data/generated_transactions.csv
+data/transactions.csv
+!data/sample_transactions.csv
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*

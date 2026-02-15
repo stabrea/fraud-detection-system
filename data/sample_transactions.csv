@@ -1,0 +1,1001 @@
+transaction_id,customer_id,amount,timestamp,merchant_category,transaction_type,channel,location,is_fraud
+TXN-0000000,CUST-00307,56.63,2024-06-07T16:11:09,restaurant,purchase,atm,Dallas,0
+TXN-0000001,CUST-00362,124.99,2024-11-16T07:39:23,grocery,purchase,mobile_app,Houston,0
+TXN-0000002,CUST-00006,0.5,2024-08-07T12:46:25,electronics,purchase,online,Los Angeles,0
+TXN-0000003,CUST-00061,143.89,2024-04-23T06:58:18,utilities,purchase,pos,Atlanta,0
+TXN-0000004,CUST-00201,73.18,2024-11-18T10:54:57,gas_station,purchase,atm,Seattle,0
+TXN-0000005,CUST-00229,1525.81,2024-08-26T11:39:26,travel,payment,pos,Chicago,0
+TXN-0000006,CUST-00325,206.4,2024-10-09T20:49:29,online_retail,purchase,mobile_app,Houston,0
+TXN-0000007,CUST-00368,75.99,2024-07-03T17:21:27,online_retail,purchase,pos,New York,0
+TXN-0000008,CUST-00248,0.5,2024-09-02T12:02:26,online_retail,purchase,online,Atlanta,0
+TXN-0000009,CUST-00436,251.67,2024-02-13T17:27:13,travel,payment,pos,Dallas,0
+TXN-0000010,CUST-00084,67.11,2024-10-12T20:29:43,online_retail,payment,online,Austin,0
+TXN-0000011,CUST-00180,52.78,2024-12-29T15:12:08,electronics,purchase,online,Boston,0
+TXN-0000012,CUST-00016,129.01,2024-09-30T15:54:07,online_retail,purchase,online,San Diego,0
+TXN-0000013,CUST-00399,161.08,2024-12-08T18:40:03,online_retail,payment,online,Phoenix,0
+TXN-0000014,CUST-00198,559.31,2024-05-02T21:42:33,travel,purchase,atm,San Antonio,0
+TXN-0000015,CUST-00143,214.59,2024-11-26T16:17:50,electronics,purchase,mobile_app,San Antonio,0
+TXN-0000016,CUST-00002,0.5,2024-02-21T13:22:20,entertainment,purchase,pos,Austin,0
+TXN-0000017,CUST-00299,334.77,2024-02-09T14:55:17,travel,payment,mobile_app,New York,0
+TXN-0000018,CUST-00130,53.43,2024-01-07T16:11:37,grocery,purchase,pos,Dallas,0
+TXN-0000019,CUST-00305,288.09,2024-07-23T14:47:17,healthcare,purchase,atm,Austin,0
+TXN-0000020,CUST-00281,162.57,2024-05-22T18:03:25,online_retail,payment,pos,San Diego,0
+TXN-0000021,CUST-00300,584.34,2024-09-09T10:32:06,electronics,purchase,phone,Philadelphia,0
+TXN-0000022,CUST-00180,0.5,2024-02-04T10:54:04,healthcare,purchase,atm,Boston,0
+TXN-0000023,CUST-00125,142.51,2024-12-17T03:33:44,clothing,payment,online,Dallas,0
+TXN-0000024,CUST-00417,51.7,2024-07-10T19:48:34,gas_station,purchase,pos,Los Angeles,0
+TXN-0000025,CUST-00112,47.69,2024-03-26T09:18:28,restaurant,purchase,online,Dallas,0
+TXN-0000026,CUST-00400,402.87,2024-11-07T15:39:47,electronics,payment,pos,Boston,0
+TXN-0000027,CUST-00141,110.57,2024-01-04T03:33:39,online_retail,withdrawal,atm,Houston,1
+TXN-0000028,CUST-00043,43.06,2024-01-16T09:29:26,restaurant,purchase,mobile_app,Philadelphia,0
+TXN-0000029,CUST-00304,257.89,2024-10-26T17:20:42,online_retail,payment,pos,Dallas,0
+TXN-0000030,CUST-00093,408.43,2024-03-15T01:07:10,healthcare,purchase,online,Philadelphia,0
+TXN-0000031,CUST-00297,1111.73,2024-03-16T19:55:05,travel,purchase,online,San Antonio,0
+TXN-0000032,CUST-00191,226.32,2024-04-05T13:04:02,utilities,purchase,pos,Austin,0
+TXN-0000033,CUST-00212,125.17,2024-04-01T16:41:50,entertainment,payment,pos,Atlanta,0
+TXN-0000034,CUST-00210,58.65,2024-05-31T22:39:49,clothing,purchase,pos,Houston,0
+TXN-0000035,CUST-00070,0.5,2024-12-06T19:24:09,travel,purchase,online,Atlanta,0
+TXN-0000036,CUST-00025,18.16,2024-04-17T11:51:50,grocery,purchase,mobile_app,Austin,0
+TXN-0000037,CUST-00064,206.36,2024-03-12T11:34:48,healthcare,purchase,pos,San Antonio,0
+TXN-0000038,CUST-00140,47.57,2024-02-22T09:48:33,entertainment,purchase,mobile_app,Boston,0
+TXN-0000039,CUST-00396,91.85,2024-10-01T18:12:18,entertainment,purchase,pos,New York,0
+TXN-0000040,CUST-00459,919.13,2024-10-21T09:10:11,electronics,purchase,pos,Los Angeles,0
+TXN-0000041,CUST-00002,36.67,2024-03-05T23:25:58,online_retail,purchase,mobile_app,Austin,0
+TXN-0000042,CUST-00225,265.99,2024-05-14T17:06:58,healthcare,payment,mobile_app,Phoenix,0
+TXN-0000043,CUST-00461,71.1,2024-08-14T13:40:01,grocery,purchase,mobile_app,Chicago,0
+TXN-0000044,CUST-00040,4.11,2024-04-28T02:40:11,grocery,purchase,online,Chicago,0
+TXN-0000045,CUST-00352,47.24,2024-03-27T13:30:14,grocery,payment,online,Phoenix,0
+TXN-0000046,CUST-00369,168.01,2024-03-27T12:23:26,travel,purchase,online,Atlanta,0
+TXN-0000047,CUST-00332,469.93,2024-07-01T19:36:36,electronics,payment,online,Phoenix,0
+TXN-0000048,CUST-00407,83.05,2024-09-30T20:06:28,grocery,payment,pos,Chicago,0
+TXN-0000049,CUST-00134,42.95,2024-12-11T16:15:48,gas_station,purchase,online,Atlanta,0
+TXN-0000050,CUST-00274,303.78,2024-09-21T23:51:10,healthcare,purchase,mobile_app,San Antonio,0
+TXN-0000051,CUST-00329,0.5,2024-12-21T16:37:54,electronics,purchase,pos,Dallas,0
+TXN-0000052,CUST-00428,311.54,2024-07-05T17:12:36,online_retail,purchase,online,Houston,0
+TXN-0000053,CUST-00395,763.56,2024-09-01T12:20:40,travel,purchase,pos,Seattle,0
+TXN-0000054,CUST-00439,141.51,2024-04-08T13:45:12,online_retail,payment,online,Philadelphia,0
+TXN-0000055,CUST-00499,117.05,2024-06-15T14:46:04,grocery,purchase,pos,San Antonio,0
+TXN-0000056,CUST-00400,656.16,2024-06-28T12:02:00,electronics,purchase,pos,Boston,0
+TXN-0000057,CUST-00099,86.82,2024-09-17T10:40:47,entertainment,payment,atm,Chicago,0
+TXN-0000058,CUST-00187,64.39,2024-06-05T19:54:37,entertainment,purchase,online,Phoenix,0
+TXN-0000059,CUST-00345,48.54,2024-12-30T15:55:29,gas_station,purchase,atm,Houston,0
+TXN-0000060,CUST-00260,77.95,2024-03-12T10:54:35,grocery,purchase,online,Atlanta,0
+TXN-0000061,CUST-00183,119.36,2024-07-09T12:41:33,clothing,payment,online,Miami,0
+TXN-0000062,CUST-00456,80.19,2024-01-13T20:24:28,clothing,purchase,online,Chicago,0
+TXN-0000063,CUST-00431,55.48,2024-01-28T08:41:13,gas_station,purchase,pos,Atlanta,0
+TXN-0000064,CUST-00178,23.52,2024-08-05T08:34:52,grocery,purchase,pos,Seattle,0
+TXN-0000065,CUST-00300,443.01,2024-09-30T14:44:53,travel,payment,phone,Philadelphia,0
+TXN-0000066,CUST-00182,122.05,2024-03-09T09:52:01,online_retail,purchase,pos,San Diego,0
+TXN-0000067,CUST-00074,748.13,2024-07-12T19:23:43,electronics,payment,online,Miami,0
+TXN-0000068,CUST-00132,59.5,2024-05-17T09:11:38,clothing,payment,mobile_app,Los Angeles,0
+TXN-0000069,CUST-00265,69.2,2024-01-25T20:31:01,clothing,purchase,pos,Dallas,0
+TXN-0000070,CUST-00258,172.49,2024-08-31T12:24:14,utilities,purchase,mobile_app,Chicago,0
+TXN-0000071,CUST-00328,1.76,2024-05-30T19:22:05,entertainment,purchase,online,Chicago,0
+TXN-0000072,CUST-00290,191.85,2024-07-26T21:06:05,healthcare,purchase,pos,Denver,0
+TXN-0000073,CUST-00036,187.61,2024-10-30T18:48:52,online_retail,payment,mobile_app,Austin,0
+TXN-0000074,CUST-00440,40.34,2024-03-17T19:51:12,travel,payment,phone,Boston,0
+TXN-0000075,CUST-00124,62.34,2024-02-04T09:54:44,restaurant,purchase,online,Denver,0
+TXN-0000076,CUST-00265,128.29,2024-09-14T15:59:59,clothing,purchase,mobile_app,Dallas,0
+TXN-0000077,CUST-00299,192.66,2024-08-03T18:50:05,travel,purchase,online,New York,0
+TXN-0000078,CUST-00270,383.13,2024-10-27T18:27:31,electronics,purchase,atm,Dallas,0
+TXN-0000079,CUST-00129,91.82,2024-03-29T17:26:56,clothing,purchase,online,Austin,0
+TXN-0000080,CUST-00423,137.58,2024-01-05T14:11:19,utilities,payment,mobile_app,Dallas,0
+TXN-0000081,CUST-00202,178.87,2024-07-31T16:37:22,online_retail,purchase,mobile_app,San Diego,0
+TXN-0000082,CUST-00145,394.9,2024-06-09T06:45:53,healthcare,purchase,atm,Denver,0
+TXN-0000083,CUST-00399,88.04,2024-10-10T15:06:19,grocery,purchase,online,Phoenix,0
+TXN-0000084,CUST-00158,55.62,2024-06-25T18:35:52,online_retail,purchase,phone,San Diego,0
+TXN-0000085,CUST-00075,12.28,2024-07-06T16:15:22,restaurant,purchase,pos,San Diego,0
+TXN-0000086,CUST-00252,2361.38,2024-08-19T04:15:22,wire_transfer,withdrawal,mobile_app,Chicago,1
+TXN-0000087,CUST-00194,308.56,2024-01-13T18:04:51,electronics,purchase,online,Boston,0
+TXN-0000088,CUST-00314,74.9,2024-08-06T00:34:20,grocery,purchase,pos,Houston,0
+TXN-0000089,CUST-00466,57.76,2024-10-08T17:07:33,entertainment,payment,online,Chicago,0
+TXN-0000090,CUST-00024,147.26,2024-01-11T14:08:31,clothing,payment,phone,Atlanta,0
+TXN-0000091,CUST-00330,83.55,2024-12-16T09:28:41,travel,payment,atm,Dallas,0
+TXN-0000092,CUST-00055,71.77,2024-02-08T07:19:53,restaurant,purchase,pos,New York,0
+TXN-0000093,CUST-00495,16.05,2024-10-12T20:01:25,restaurant,purchase,online,San Antonio,0
+TXN-0000094,CUST-00177,95.49,2024-12-09T18:39:50,clothing,purchase,mobile_app,Chicago,0
+TXN-0000095,CUST-00100,84.7,2024-08-15T14:53:27,utilities,purchase,online,Denver,0
+TXN-0000096,CUST-00070,348.66,2024-08-01T09:52:56,travel,purchase,pos,Atlanta,0
+TXN-0000097,CUST-00366,0.5,2024-12-07T13:56:52,travel,payment,atm,San Antonio,0
+TXN-0000098,CUST-00422,42.4,2024-11-21T19:43:46,restaurant,purchase,online,Atlanta,0
+TXN-0000099,CUST-00004,140.53,2024-05-03T15:10:15,healthcare,purchase,online,San Antonio,0
+TXN-0000100,CUST-00396,224.37,2024-05-01T12:18:33,utilities,purchase,pos,New York,0
+TXN-0000101,CUST-00420,73.17,2024-01-26T03:47:32,grocery,purchase,pos,Seattle,0
+TXN-0000102,CUST-00462,55.01,2024-11-25T16:46:22,restaurant,purchase,pos,Atlanta,0
+TXN-0000103,CUST-00367,474.45,2024-11-12T23:34:26,travel,payment,mobile_app,Atlanta,0
+TXN-0000104,CUST-00144,97.4,2024-01-29T13:17:33,utilities,purchase,mobile_app,Boston,0
+TXN-0000105,CUST-00352,88.56,2024-06-14T07:09:09,restaurant,purchase,pos,Phoenix,0
+TXN-0000106,CUST-00180,219.89,2024-07-19T20:34:17,healthcare,purchase,mobile_app,Boston,0
+TXN-0000107,CUST-00255,95.63,2024-08-16T03:00:29,online_retail,purchase,mobile_app,New York,0
+TXN-0000108,CUST-00341,124.12,2024-08-15T09:41:59,electronics,payment,mobile_app,Los Angeles,0
+TXN-0000109,CUST-00427,528.06,2024-03-13T13:32:55,electronics,purchase,online,Denver,0
+TXN-0000110,CUST-00305,198.03,2024-07-12T19:21:15,healthcare,purchase,online,Chicago,0
+TXN-0000111,CUST-00326,63.48,2024-08-22T10:38:52,restaurant,payment,atm,Houston,0
+TXN-0000112,CUST-00284,94.9,2024-04-30T12:17:05,gas_station,purchase,online,Foreign-A,1
+TXN-0000113,CUST-00384,85.41,2024-07-15T12:44:15,clothing,purchase,pos,New York,0
+TXN-0000114,CUST-00177,772.96,2024-08-07T00:26:43,travel,purchase,pos,Chicago,0
+TXN-0000115,CUST-00459,170.53,2024-07-09T10:41:32,online_retail,payment,online,Los Angeles,0
+TXN-0000116,CUST-00084,283.59,2024-05-13T14:05:02,utilities,payment,pos,Austin,0
+TXN-0000117,CUST-00153,34.74,2024-10-16T13:01:14,restaurant,purchase,pos,Phoenix,0
+TXN-0000118,CUST-00331,126.63,2024-01-15T15:33:50,entertainment,purchase,phone,Philadelphia,0
+TXN-0000119,CUST-00029,176.29,2024-02-17T09:41:38,online_retail,payment,online,San Antonio,0
+TXN-0000120,CUST-00398,114.96,2024-05-09T21:11:23,utilities,purchase,mobile_app,Phoenix,0
+TXN-0000121,CUST-00352,59.08,2024-05-30T09:58:09,entertainment,payment,mobile_app,Phoenix,0
+TXN-0000122,CUST-00180,54.67,2024-05-23T12:25:36,grocery,purchase,online,Boston,0
+TXN-0000123,CUST-00110,122.18,2024-10-16T18:26:16,grocery,purchase,pos,Phoenix,0
+TXN-0000124,CUST-00313,159.33,2024-11-24T20:48:01,entertainment,purchase,online,Phoenix,0
+TXN-0000125,CUST-00044,85.64,2024-10-10T19:03:20,online_retail,purchase,mobile_app,Los Angeles,0
+TXN-0000126,CUST-00143,0.5,2024-07-30T17:19:10,healthcare,purchase,mobile_app,San Antonio,0
+TXN-0000127,CUST-00113,89.88,2024-03-27T10:04:06,healthcare,payment,pos,San Antonio,0
+TXN-0000128,CUST-00045,70.36,2024-06-09T13:35:56,grocery,purchase,mobile_app,Denver,0
+TXN-0000129,CUST-00323,32.8,2024-12-25T08:37:02,gas_station,purchase,online,Seattle,0
+TXN-0000130,CUST-00386,17.81,2024-04-14T18:17:24,gas_station,payment,online,Los Angeles,0
+TXN-0000131,CUST-00274,0.5,2024-09-04T08:08:31,healthcare,purchase,pos,San Antonio,0
+TXN-0000132,CUST-00315,42.47,2024-12-09T17:39:46,healthcare,purchase,online,Austin,0
+TXN-0000133,CUST-00368,122.47,2024-11-12T02:10:05,cash_advance,transfer,online,New York,1
+TXN-0000134,CUST-00392,116.64,2024-08-03T14:05:55,utilities,payment,pos,Philadelphia,0
+TXN-0000135,CUST-00020,0.5,2024-07-28T15:08:34,travel,purchase,mobile_app,San Diego,0
+TXN-0000136,CUST-00059,352.93,2024-03-30T17:47:30,healthcare,purchase,pos,Miami,0
+TXN-0000137,CUST-00075,99.02,2024-06-09T12:00:06,utilities,purchase,pos,San Diego,0
+TXN-0000138,CUST-00411,934.46,2024-04-03T18:29:57,electronics,purchase,pos,Houston,0
+TXN-0000139,CUST-00400,104.22,2024-03-11T13:03:49,electronics,purchase,online,Seattle,0
+TXN-0000140,CUST-00120,201.69,2024-10-14T12:31:26,utilities,purchase,online,San Antonio,0
+TXN-0000141,CUST-00215,123.04,2024-11-28T10:18:16,entertainment,purchase,online,Phoenix,0
+TXN-0000142,CUST-00291,0.5,2024-06-18T14:31:10,healthcare,payment,online,Phoenix,0
+TXN-0000143,CUST-00059,87.06,2024-12-30T00:09:25,online_retail,purchase,online,Miami,0
+TXN-0000144,CUST-00254,1.6,2024-05-12T09:41:29,entertainment,purchase,mobile_app,San Antonio,0
+TXN-0000145,CUST-00488,164.43,2024-07-19T12:23:55,electronics,purchase,mobile_app,Atlanta,0
+TXN-0000146,CUST-00286,107.66,2024-05-11T20:49:17,clothing,purchase,pos,Chicago,0
+TXN-0000147,CUST-00094,142.94,2024-02-08T15:46:53,entertainment,payment,pos,Seattle,0
+TXN-0000148,CUST-00211,84.37,2024-11-07T18:42:22,entertainment,purchase,pos,Miami,0
+TXN-0000149,CUST-00354,36.69,2024-10-17T14:47:27,gas_station,purchase,online,Boston,0
+TXN-0000150,CUST-00412,158.3,2024-02-04T10:53:25,entertainment,payment,pos,Phoenix,0
+TXN-0000151,CUST-00075,73.88,2024-03-19T15:48:57,grocery,payment,mobile_app,San Diego,0
+TXN-0000152,CUST-00421,193.14,2024-08-26T12:02:55,healthcare,purchase,online,Miami,0
+TXN-0000153,CUST-00387,0.5,2024-03-14T18:19:13,travel,purchase,mobile_app,Denver,0
+TXN-0000154,CUST-00349,112.48,2024-02-29T16:08:30,entertainment,purchase,mobile_app,Chicago,0
+TXN-0000155,CUST-00020,253.17,2024-05-17T14:17:01,healthcare,purchase,online,San Diego,0
+TXN-0000156,CUST-00242,15.56,2024-06-12T09:35:15,online_retail,purchase,mobile_app,Los Angeles,0
+TXN-0000157,CUST-00090,496.73,2024-03-07T13:51:15,travel,purchase,pos,San Antonio,0
+TXN-0000158,CUST-00436,435.7,2024-11-27T17:58:09,healthcare,purchase,online,Dallas,0
+TXN-0000159,CUST-00128,18.91,2024-11-28T15:29:48,restaurant,payment,mobile_app,Dallas,0
+TXN-0000160,CUST-00346,35.67,2024-08-04T18:53:05,restaurant,purchase,pos,Boston,0
+TXN-0000161,CUST-00199,46.69,2024-04-02T18:50:39,online_retail,purchase,pos,Boston,0
+TXN-0000162,CUST-00467,24.67,2024-10-25T21:12:51,restaurant,purchase,online,Dallas,0
+TXN-0000163,CUST-00080,23.0,2024-09-20T17:26:08,healthcare,purchase,mobile_app,Boston,0
+TXN-0000164,CUST-00196,301.02,2024-02-13T15:21:20,electronics,purchase,online,Philadelphia,0
+TXN-0000165,CUST-00347,269.49,2024-11-29T08:01:35,electronics,purchase,online,Boston,0
+TXN-0000166,CUST-00035,1.06,2024-03-21T23:28:53,grocery,purchase,online,Boston,0
+TXN-0000167,CUST-00226,0.5,2024-05-08T21:35:12,travel,payment,online,Denver,0
+TXN-0000168,CUST-00417,45.06,2024-03-09T12:12:54,gas_station,purchase,atm,Los Angeles,0
+TXN-0000169,CUST-00140,39.9,2024-09-10T09:46:54,entertainment,payment,online,Boston,0
+TXN-0000170,CUST-00389,39.35,2024-10-09T11:28:20,restaurant,payment,mobile_app,Chicago,0
+TXN-0000171,CUST-00485,56.61,2024-08-02T12:00:30,entertainment,purchase,pos,Houston,0
+TXN-0000172,CUST-00287,165.4,2024-02-03T09:12:15,online_retail,purchase,mobile_app,Dallas,0
+TXN-0000173,CUST-00410,152.64,2024-11-29T14:11:50,entertainment,purchase,pos,Foreign-B,1
+TXN-0000174,CUST-00240,40.93,2024-06-10T00:21:36,restaurant,purchase,mobile_app,Chicago,0
+TXN-0000175,CUST-00313,46.3,2024-04-15T02:00:49,restaurant,purchase,online,Phoenix,0
+TXN-0000176,CUST-00149,126.83,2024-01-18T13:44:09,utilities,purchase,online,New York,0
+TXN-0000177,CUST-00378,70.82,2024-12-07T15:39:58,clothing,purchase,phone,Philadelphia,0
+TXN-0000178,CUST-00393,559.18,2024-02-16T12:33:00,travel,payment,atm,Dallas,0
+TXN-0000179,CUST-00232,158.39,2024-11-13T22:44:19,clothing,purchase,atm,New York,0
+TXN-0000180,CUST-00359,41.16,2024-03-05T21:19:22,entertainment,purchase,online,Phoenix,0
+TXN-0000181,CUST-00194,535.9,2024-07-04T19:14:24,electronics,purchase,mobile_app,Boston,0
+TXN-0000182,CUST-00093,65.4,2024-10-03T15:46:01,gas_station,purchase,pos,San Diego,0
+TXN-0000183,CUST-00314,67.33,2024-11-19T16:14:10,clothing,payment,mobile_app,Houston,0
+TXN-0000184,CUST-00405,94.46,2024-08-12T11:31:55,entertainment,purchase,online,San Diego,0
+TXN-0000185,CUST-00427,76.72,2024-01-13T23:33:57,healthcare,purchase,atm,Denver,0
+TXN-0000186,CUST-00377,76.67,2024-12-28T22:44:27,grocery,purchase,online,Atlanta,0
+TXN-0000187,CUST-00071,31.73,2024-10-20T11:54:29,restaurant,purchase,online,Chicago,0
+TXN-0000188,CUST-00152,109.37,2024-12-25T08:55:33,clothing,purchase,atm,Seattle,0
+TXN-0000189,CUST-00182,0.5,2024-11-27T09:46:36,clothing,purchase,pos,San Diego,0
+TXN-0000190,CUST-00487,191.12,2024-09-22T12:50:48,healthcare,payment,mobile_app,San Diego,0
+TXN-0000191,CUST-00009,54.72,2024-02-28T21:26:07,restaurant,purchase,pos,Los Angeles,0
+TXN-0000192,CUST-00166,35.4,2024-12-18T16:57:59,gas_station,purchase,online,Phoenix,0
+TXN-0000193,CUST-00111,351.85,2024-12-10T04:04:57,travel,purchase,online,Atlanta,0
+TXN-0000194,CUST-00171,75.27,2024-08-28T09:21:32,grocery,purchase,mobile_app,Los Angeles,0
+TXN-0000195,CUST-00122,50.61,2024-08-11T15:03:48,grocery,purchase,online,Austin,0
+TXN-0000196,CUST-00349,168.89,2024-05-10T08:33:44,clothing,purchase,atm,Chicago,0
+TXN-0000197,CUST-00219,555.29,2024-04-08T17:14:46,travel,purchase,mobile_app,Seattle,0
+TXN-0000198,CUST-00054,70.51,2024-04-12T13:09:48,grocery,purchase,online,San Diego,0
+TXN-0000199,CUST-00315,231.76,2024-08-14T17:31:04,healthcare,purchase,online,New York,0
+TXN-0000200,CUST-00130,20.72,2024-06-28T17:26:09,restaurant,purchase,pos,Dallas,0
+TXN-0000201,CUST-00310,137.51,2024-09-01T11:58:16,entertainment,purchase,pos,Austin,0
+TXN-0000202,CUST-00423,167.03,2024-10-27T09:43:46,utilities,purchase,mobile_app,Dallas,0
+TXN-0000203,CUST-00120,0.5,2024-01-03T18:17:36,clothing,purchase,mobile_app,San Antonio,0
+TXN-0000204,CUST-00347,748.29,2024-08-12T21:30:20,travel,purchase,pos,Boston,0
+TXN-0000205,CUST-00269,1256.87,2024-11-27T16:20:29,travel,purchase,online,Dallas,0
+TXN-0000206,CUST-00029,8.2,2024-03-09T16:01:22,travel,purchase,pos,San Antonio,0
+TXN-0000207,CUST-00492,46.83,2024-06-27T10:31:58,restaurant,purchase,pos,Boston,0
+TXN-0000208,CUST-00099,226.52,2024-02-10T15:51:38,healthcare,payment,online,Chicago,0
+TXN-0000209,CUST-00366,684.09,2024-08-16T17:48:28,travel,purchase,atm,San Diego,0
+TXN-0000210,CUST-00249,0.5,2024-05-03T14:28:42,grocery,payment,pos,New York,0
+TXN-0000211,CUST-00084,77.22,2024-04-13T12:32:45,grocery,purchase,mobile_app,Atlanta,0
+TXN-0000212,CUST-00289,74.72,2024-09-16T21:02:32,gas_station,payment,atm,San Diego,0
+TXN-0000213,CUST-00230,103.32,2024-05-21T14:26:21,entertainment,payment,mobile_app,San Antonio,0
+TXN-0000214,CUST-00132,0.5,2024-08-01T09:42:12,healthcare,purchase,mobile_app,Boston,0
+TXN-0000215,CUST-00014,511.93,2024-09-05T10:03:42,travel,purchase,pos,Miami,0
+TXN-0000216,CUST-00033,35.25,2024-01-08T09:33:35,gas_station,payment,pos,Dallas,0
+TXN-0000217,CUST-00339,182.25,2024-03-28T10:20:53,utilities,purchase,online,Boston,0
+TXN-0000218,CUST-00475,650.85,2024-01-08T18:42:51,travel,payment,mobile_app,Atlanta,0
+TXN-0000219,CUST-00471,359.79,2024-11-19T14:35:31,healthcare,payment,mobile_app,Denver,0
+TXN-0000220,CUST-00386,61.74,2024-01-23T09:23:09,entertainment,purchase,mobile_app,Los Angeles,0
+TXN-0000221,CUST-00107,95.17,2024-02-11T20:22:35,online_retail,purchase,online,Austin,0
+TXN-0000222,CUST-00470,159.33,2024-02-03T22:30:20,utilities,purchase,phone,Atlanta,0
+TXN-0000223,CUST-00344,919.36,2024-11-12T15:39:04,electronics,purchase,pos,Seattle,0
+TXN-0000224,CUST-00002,44.09,2024-09-09T15:46:30,entertainment,purchase,atm,Austin,0
+TXN-0000225,CUST-00161,46.37,2024-11-05T12:31:24,entertainment,purchase,pos,Austin,0
+TXN-0000226,CUST-00237,147.35,2024-08-08T17:02:20,travel,purchase,pos,San Antonio,0
+TXN-0000227,CUST-00188,861.97,2024-08-24T08:56:09,travel,purchase,online,Houston,0
+TXN-0000228,CUST-00448,0.5,2024-12-04T18:45:01,restaurant,purchase,mobile_app,Houston,0
+TXN-0000229,CUST-00114,339.97,2024-07-23T11:19:00,electronics,payment,pos,San Diego,0
+TXN-0000230,CUST-00451,129.32,2024-03-12T07:04:47,entertainment,payment,mobile_app,Seattle,0
+TXN-0000231,CUST-00399,263.84,2024-09-04T04:52:18,online_retail,withdrawal,online,Phoenix,1
+TXN-0000232,CUST-00371,56.53,2024-02-09T19:58:39,clothing,purchase,online,Austin,0
+TXN-0000233,CUST-00407,150.78,2024-07-04T17:42:43,healthcare,purchase,mobile_app,Chicago,0
+TXN-0000234,CUST-00051,52.03,2024-10-18T08:56:20,restaurant,payment,mobile_app,Chicago,0
+TXN-0000235,CUST-00292,25.23,2024-04-29T11:21:54,gas_station,payment,online,Boston,0
+TXN-0000236,CUST-00442,21.24,2024-03-23T13:25:14,electronics,purchase,pos,San Diego,0
+TXN-0000237,CUST-00136,35.21,2024-07-16T16:34:01,restaurant,payment,mobile_app,Austin,0
+TXN-0000238,CUST-00017,141.25,2024-11-02T10:38:46,entertainment,purchase,online,Los Angeles,0
+TXN-0000239,CUST-00169,100.0,2024-06-19T17:10:47,electronics,payment,online,New York,0
+TXN-0000240,CUST-00257,148.43,2024-05-05T08:05:18,electronics,purchase,pos,Atlanta,0
+TXN-0000241,CUST-00137,0.5,2024-09-08T11:19:02,online_retail,payment,atm,New York,0
+TXN-0000242,CUST-00409,116.55,2024-04-07T12:35:10,clothing,purchase,online,New York,0
+TXN-0000243,CUST-00165,199.51,2024-03-15T12:16:58,utilities,purchase,pos,Denver,0
+TXN-0000244,CUST-00189,0.5,2024-10-26T18:41:25,electronics,purchase,online,Chicago,0
+TXN-0000245,CUST-00016,73.56,2024-10-18T13:10:32,online_retail,purchase,mobile_app,San Diego,0
+TXN-0000246,CUST-00259,63.09,2024-07-20T03:16:54,grocery,payment,mobile_app,Dallas,0
+TXN-0000247,CUST-00184,31.17,2024-08-16T09:57:19,restaurant,payment,mobile_app,Seattle,0
+TXN-0000248,CUST-00040,69.95,2024-08-21T15:45:33,grocery,purchase,online,Chicago,0
+TXN-0000249,CUST-00406,50.5,2024-11-17T19:09:10,restaurant,purchase,mobile_app,San Antonio,0
+TXN-0000250,CUST-00496,144.89,2024-11-14T13:01:35,online_retail,purchase,atm,Los Angeles,0
+TXN-0000251,CUST-00371,4133.24,2024-01-03T06:17:59,jewelry,purchase,mobile_app,Austin,1
+TXN-0000252,CUST-00079,42.82,2024-09-14T16:06:17,gas_station,purchase,online,Miami,0
+TXN-0000253,CUST-00490,194.27,2024-11-18T20:18:53,clothing,payment,online,Seattle,0
+TXN-0000254,CUST-00497,614.46,2024-12-01T11:50:02,electronics,payment,mobile_app,Philadelphia,0
+TXN-0000255,CUST-00268,528.37,2024-06-08T15:03:52,electronics,purchase,pos,New York,0
+TXN-0000256,CUST-00079,183.09,2024-06-22T21:16:23,clothing,purchase,online,Miami,0
+TXN-0000257,CUST-00116,147.02,2024-07-17T21:22:45,utilities,purchase,online,New York,0
+TXN-0000258,CUST-00226,0.5,2024-07-01T17:01:42,entertainment,purchase,mobile_app,Denver,0
+TXN-0000259,CUST-00021,48.68,2024-06-11T09:47:17,gas_station,purchase,pos,Philadelphia,0
+TXN-0000260,CUST-00117,122.27,2024-09-22T20:42:48,electronics,purchase,online,Los Angeles,0
+TXN-0000261,CUST-00493,9.08,2024-10-25T11:24:03,online_retail,payment,online,Austin,0
+TXN-0000262,CUST-00226,110.08,2024-12-04T15:32:23,clothing,purchase,mobile_app,Denver,0
+TXN-0000263,CUST-00249,307.75,2024-02-08T18:57:36,healthcare,payment,mobile_app,New York,0
+TXN-0000264,CUST-00470,169.73,2024-09-23T17:11:35,utilities,purchase,online,Houston,0
+TXN-0000265,CUST-00291,159.13,2024-07-16T11:34:05,online_retail,purchase,pos,Denver,0
+TXN-0000266,CUST-00025,101.36,2024-02-23T09:55:21,online_retail,purchase,pos,Philadelphia,0
+TXN-0000267,CUST-00340,94.1,2024-03-26T18:38:06,grocery,payment,online,Austin,0
+TXN-0000268,CUST-00486,158.98,2024-12-21T05:31:22,online_retail,purchase,atm,Philadelphia,0
+TXN-0000269,CUST-00250,0.5,2024-06-01T16:51:36,travel,purchase,online,Chicago,0
+TXN-0000270,CUST-00239,532.56,2024-01-23T18:26:21,travel,payment,atm,Atlanta,0
+TXN-0000271,CUST-00037,0.5,2024-09-27T19:04:13,online_retail,purchase,online,Denver,0
+TXN-0000272,CUST-00407,412.6,2024-06-01T11:06:17,healthcare,purchase,pos,Miami,0
+TXN-0000273,CUST-00441,18.34,2024-01-14T11:20:52,clothing,payment,mobile_app,Phoenix,0
+TXN-0000274,CUST-00466,0.5,2024-08-23T16:03:48,entertainment,purchase,atm,Atlanta,0
+TXN-0000275,CUST-00139,51.16,2024-11-08T14:54:51,restaurant,purchase,online,San Antonio,0
+TXN-0000276,CUST-00058,45.61,2024-10-13T15:36:55,grocery,purchase,pos,Atlanta,0
+TXN-0000277,CUST-00481,544.91,2024-11-27T12:45:01,electronics,purchase,mobile_app,Denver,0
+TXN-0000278,CUST-00146,153.43,2024-07-17T16:45:18,grocery,purchase,atm,New York,0
+TXN-0000279,CUST-00186,0.5,2024-12-29T13:15:25,restaurant,purchase,pos,Chicago,0
+TXN-0000280,CUST-00370,367.57,2024-11-05T21:35:31,healthcare,purchase,mobile_app,Philadelphia,0
+TXN-0000281,CUST-00354,36.59,2024-10-03T16:32:42,gas_station,purchase,mobile_app,Boston,0
+TXN-0000282,CUST-00237,55.7,2024-09-05T13:17:32,restaurant,purchase,online,San Antonio,0
+TXN-0000283,CUST-00255,100.51,2024-01-14T11:26:41,restaurant,payment,online,Chicago,0
+TXN-0000284,CUST-00437,0.5,2024-12-30T16:08:59,clothing,payment,pos,Seattle,0
+TXN-0000285,CUST-00179,0.5,2024-10-08T14:27:19,electronics,payment,pos,San Diego,0
+TXN-0000286,CUST-00412,36.43,2024-02-14T10:45:54,grocery,purchase,atm,Phoenix,0
+TXN-0000287,CUST-00455,131.67,2024-03-22T09:14:54,clothing,payment,atm,Dallas,0
+TXN-0000288,CUST-00458,481.55,2024-10-22T15:45:46,electronics,purchase,mobile_app,Denver,0
+TXN-0000289,CUST-00083,139.64,2024-05-26T12:44:49,healthcare,purchase,mobile_app,Denver,0
+TXN-0000290,CUST-00283,61.32,2024-05-13T19:25:05,restaurant,purchase,phone,San Diego,0
+TXN-0000291,CUST-00182,0.5,2024-08-03T19:55:09,grocery,purchase,pos,San Diego,0
+TXN-0000292,CUST-00020,237.85,2024-02-23T15:15:12,healthcare,purchase,online,San Diego,0
+TXN-0000293,CUST-00420,25.1,2024-05-11T13:03:25,restaurant,payment,mobile_app,Los Angeles,0
+TXN-0000294,CUST-00187,162.98,2024-11-15T12:38:15,utilities,purchase,pos,Philadelphia,0
+TXN-0000295,CUST-00082,109.29,2024-04-15T19:20:56,clothing,purchase,mobile_app,Chicago,0
+TXN-0000296,CUST-00186,79.53,2024-05-30T18:11:16,utilities,purchase,pos,Miami,0
+TXN-0000297,CUST-00345,87.85,2024-08-03T11:08:11,online_retail,purchase,pos,Houston,0
+TXN-0000298,CUST-00103,92.71,2024-10-14T11:30:03,restaurant,purchase,online,New York,0
+TXN-0000299,CUST-00150,336.67,2024-03-27T12:55:21,electronics,payment,online,Denver,0
+TXN-0000300,CUST-00147,156.48,2024-06-27T13:36:20,entertainment,purchase,pos,Houston,0
+TXN-0000301,CUST-00364,197.85,2024-03-10T14:20:49,healthcare,payment,online,Los Angeles,0
+TXN-0000302,CUST-00376,210.49,2024-07-17T09:50:43,healthcare,purchase,pos,Atlanta,0
+TXN-0000303,CUST-00236,4.98,2024-09-23T13:35:10,grocery,purchase,online,Austin,0
+TXN-0000304,CUST-00279,56.65,2024-09-25T15:54:09,utilities,purchase,mobile_app,Los Angeles,0
+TXN-0000305,CUST-00395,989.65,2024-06-08T15:23:15,travel,purchase,pos,Seattle,0
+TXN-0000306,CUST-00076,15.68,2024-03-20T15:53:59,restaurant,purchase,pos,Phoenix,0
+TXN-0000307,CUST-00150,244.77,2024-03-14T13:30:26,utilities,purchase,mobile_app,Denver,0
+TXN-0000308,CUST-00420,75.89,2024-03-22T14:02:31,entertainment,purchase,mobile_app,Seattle,0
+TXN-0000309,CUST-00215,125.76,2024-03-31T08:54:17,utilities,purchase,mobile_app,Phoenix,0
+TXN-0000310,CUST-00047,160.27,2024-07-26T10:23:19,utilities,purchase,mobile_app,Seattle,0
+TXN-0000311,CUST-00102,160.39,2024-06-10T10:08:25,healthcare,payment,online,Denver,0
+TXN-0000312,CUST-00480,269.92,2024-02-06T19:01:43,clothing,purchase,pos,Phoenix,0
+TXN-0000313,CUST-00293,315.57,2024-01-15T15:49:15,electronics,purchase,online,Phoenix,0
+TXN-0000314,CUST-00459,65.92,2024-07-06T13:12:35,entertainment,purchase,mobile_app,Los Angeles,0
+TXN-0000315,CUST-00343,201.49,2024-03-15T13:14:51,clothing,purchase,pos,San Diego,0
+TXN-0000316,CUST-00054,126.4,2024-05-19T13:40:14,online_retail,purchase,mobile_app,San Diego,0
+TXN-0000317,CUST-00008,7.88,2024-07-15T10:43:01,online_retail,purchase,mobile_app,Boston,0
+TXN-0000318,CUST-00292,0.5,2024-05-14T22:39:24,clothing,payment,pos,Phoenix,0
+TXN-0000319,CUST-00149,68.6,2024-03-25T18:42:29,utilities,payment,mobile_app,New York,0
+TXN-0000320,CUST-00390,144.99,2024-05-17T14:18:20,utilities,purchase,online,Atlanta,0
+TXN-0000321,CUST-00410,146.05,2024-04-22T15:02:04,clothing,payment,pos,Chicago,0
+TXN-0000322,CUST-00094,33.68,2024-04-02T15:32:23,gas_station,purchase,online,Seattle,0
+TXN-0000323,CUST-00001,22.06,2024-12-05T15:55:50,online_retail,payment,mobile_app,Atlanta,0
+TXN-0000324,CUST-00396,223.84,2024-05-07T12:45:42,entertainment,purchase,atm,New York,0
+TXN-0000325,CUST-00297,233.14,2024-06-01T18:24:26,clothing,purchase,pos,San Antonio,0
+TXN-0000326,CUST-00254,0.5,2024-08-02T11:42:05,entertainment,purchase,online,Austin,0
+TXN-0000327,CUST-00167,108.03,2024-05-05T08:33:49,grocery,payment,pos,Chicago,0
+TXN-0000328,CUST-00218,33.64,2024-06-05T15:09:50,gas_station,purchase,mobile_app,San Antonio,0
+TXN-0000329,CUST-00073,102.73,2024-12-24T16:32:56,restaurant,purchase,phone,Los Angeles,0
+TXN-0000330,CUST-00145,488.67,2024-10-13T15:57:20,travel,payment,online,Denver,0
+TXN-0000331,CUST-00499,630.96,2024-06-08T13:38:24,travel,purchase,pos,San Antonio,0
+TXN-0000332,CUST-00100,95.92,2024-01-25T12:23:28,utilities,purchase,pos,Denver,0
+TXN-0000333,CUST-00424,64.6,2024-12-19T13:20:51,utilities,payment,phone,San Antonio,0
+TXN-0000334,CUST-00227,32.09,2024-07-16T13:31:01,restaurant,purchase,pos,Dallas,0
+TXN-0000335,CUST-00047,133.91,2024-09-16T20:29:44,grocery,purchase,mobile_app,Seattle,0
+TXN-0000336,CUST-00217,155.38,2024-09-06T13:59:14,utilities,purchase,online,Los Angeles,0
+TXN-0000337,CUST-00367,43.96,2024-10-07T11:14:30,entertainment,payment,online,Phoenix,0
+TXN-0000338,CUST-00394,31.26,2024-11-16T17:25:42,restaurant,purchase,mobile_app,Miami,0
+TXN-0000339,CUST-00065,970.27,2024-06-22T12:50:33,travel,payment,online,Phoenix,0
+TXN-0000340,CUST-00250,218.62,2024-11-17T09:19:27,utilities,purchase,atm,Chicago,0
+TXN-0000341,CUST-00173,265.65,2024-04-14T19:46:31,healthcare,purchase,pos,Miami,0
+TXN-0000342,CUST-00299,76.44,2024-05-09T09:28:06,restaurant,payment,pos,New York,0
+TXN-0000343,CUST-00247,1008.69,2024-03-10T06:47:29,electronics,purchase,online,San Antonio,0
+TXN-0000344,CUST-00256,823.65,2024-03-19T16:55:43,travel,purchase,atm,Miami,0
+TXN-0000345,CUST-00407,76.02,2024-07-02T21:18:48,grocery,payment,pos,Chicago,0
+TXN-0000346,CUST-00373,51.51,2024-06-01T14:07:46,restaurant,purchase,atm,Philadelphia,0
+TXN-0000347,CUST-00340,20.36,2024-05-31T21:54:48,grocery,purchase,online,Austin,0
+TXN-0000348,CUST-00333,109.18,2024-05-08T18:31:46,online_retail,payment,pos,Denver,0
+TXN-0000349,CUST-00303,156.79,2024-03-27T19:09:47,electronics,purchase,mobile_app,Seattle,0
+TXN-0000350,CUST-00175,280.62,2024-09-12T15:40:56,healthcare,purchase,online,San Antonio,0
+TXN-0000351,CUST-00401,0.5,2024-06-03T14:37:33,electronics,payment,online,Atlanta,0
+TXN-0000352,CUST-00427,54.52,2024-01-30T19:11:28,healthcare,purchase,online,Denver,0
+TXN-0000353,CUST-00189,45.5,2024-09-22T12:26:41,online_retail,purchase,online,New York,0
+TXN-0000354,CUST-00399,109.46,2024-10-26T09:11:23,utilities,purchase,pos,Phoenix,0
+TXN-0000355,CUST-00200,90.5,2024-07-12T09:11:06,clothing,purchase,online,Philadelphia,0
+TXN-0000356,CUST-00065,89.85,2024-12-10T12:51:18,electronics,purchase,online,Phoenix,0
+TXN-0000357,CUST-00360,199.28,2024-05-10T15:42:03,online_retail,payment,atm,Denver,0
+TXN-0000358,CUST-00353,125.95,2024-12-29T18:07:02,utilities,purchase,phone,San Antonio,0
+TXN-0000359,CUST-00271,275.82,2024-04-26T15:59:05,travel,purchase,atm,New York,0
+TXN-0000360,CUST-00258,60.16,2024-09-05T21:39:02,grocery,payment,pos,Chicago,0
+TXN-0000361,CUST-00135,457.68,2024-07-26T20:42:53,electronics,purchase,pos,Phoenix,0
+TXN-0000362,CUST-00241,39.96,2024-08-04T22:03:57,restaurant,purchase,mobile_app,Philadelphia,0
+TXN-0000363,CUST-00276,366.96,2024-06-14T08:00:05,travel,purchase,online,Phoenix,0
+TXN-0000364,CUST-00160,40.26,2024-03-21T21:11:06,gas_station,purchase,atm,Miami,0
+TXN-0000365,CUST-00254,190.47,2024-05-18T16:07:15,healthcare,purchase,pos,Houston,0
+TXN-0000366,CUST-00345,28.78,2024-03-24T13:38:51,gas_station,purchase,mobile_app,New York,0
+TXN-0000367,CUST-00045,83.65,2024-06-07T17:43:19,grocery,purchase,online,Boston,0
+TXN-0000368,CUST-00340,603.08,2024-09-28T19:58:17,travel,purchase,mobile_app,Austin,0
+TXN-0000369,CUST-00044,78.54,2024-08-09T12:42:56,grocery,payment,pos,Los Angeles,0
+TXN-0000370,CUST-00269,271.05,2024-07-03T17:45:20,electronics,purchase,pos,Dallas,0
+TXN-0000371,CUST-00476,387.67,2024-01-05T19:22:37,healthcare,payment,online,Denver,0
+TXN-0000372,CUST-00355,0.5,2024-02-26T01:59:06,online_retail,purchase,mobile_app,Boston,0
+TXN-0000373,CUST-00391,795.73,2024-02-13T22:57:32,travel,purchase,mobile_app,Chicago,0
+TXN-0000374,CUST-00226,181.28,2024-11-03T14:09:16,utilities,purchase,pos,Denver,0
+TXN-0000375,CUST-00361,344.88,2024-07-28T16:02:34,travel,purchase,online,Miami,0
+TXN-0000376,CUST-00418,559.29,2024-01-18T06:14:03,travel,purchase,online,Phoenix,0
+TXN-0000377,CUST-00495,67.19,2024-09-04T19:29:11,restaurant,purchase,atm,San Antonio,0
+TXN-0000378,CUST-00131,135.19,2024-12-11T10:47:41,healthcare,payment,mobile_app,Dallas,0
+TXN-0000379,CUST-00271,529.44,2024-03-16T21:03:00,travel,payment,mobile_app,New York,0
+TXN-0000380,CUST-00389,128.21,2024-04-16T12:13:42,clothing,purchase,pos,Chicago,0
+TXN-0000381,CUST-00126,79.28,2024-05-26T14:49:31,restaurant,purchase,mobile_app,Los Angeles,0
+TXN-0000382,CUST-00144,163.87,2024-09-13T13:42:27,online_retail,purchase,pos,Boston,0
+TXN-0000383,CUST-00452,59.5,2024-03-08T18:47:47,gas_station,purchase,mobile_app,San Diego,0
+TXN-0000384,CUST-00150,63.67,2024-04-23T13:30:34,utilities,payment,online,Denver,0
+TXN-0000385,CUST-00300,99.15,2024-08-07T11:54:39,healthcare,purchase,pos,Philadelphia,0
+TXN-0000386,CUST-00039,114.21,2024-06-29T12:05:35,entertainment,payment,mobile_app,Austin,0
+TXN-0000387,CUST-00234,0.5,2024-06-28T03:56:23,travel,purchase,pos,San Diego,0
+TXN-0000388,CUST-00486,219.82,2024-03-31T17:56:03,grocery,purchase,online,Boston,1
+TXN-0000389,CUST-00145,541.69,2024-12-30T13:50:14,electronics,purchase,online,Denver,0
+TXN-0000390,CUST-00477,187.66,2024-04-13T12:39:52,online_retail,purchase,mobile_app,New York,0
+TXN-0000391,CUST-00351,15.61,2024-03-15T20:42:22,online_retail,purchase,pos,New York,0
+TXN-0000392,CUST-00110,158.38,2024-02-09T17:24:13,utilities,payment,pos,Phoenix,0
+TXN-0000393,CUST-00392,130.02,2024-02-19T20:53:14,utilities,purchase,online,Philadelphia,0
+TXN-0000394,CUST-00013,0.5,2024-10-10T19:26:29,travel,purchase,mobile_app,Atlanta,0
+TXN-0000395,CUST-00118,148.32,2024-02-24T06:17:40,utilities,payment,pos,Atlanta,0
+TXN-0000396,CUST-00212,67.83,2024-05-19T13:40:53,restaurant,purchase,online,Atlanta,0
+TXN-0000397,CUST-00322,0.5,2024-12-24T17:37:52,healthcare,payment,mobile_app,Austin,0
+TXN-0000398,CUST-00488,98.23,2024-01-03T10:49:25,restaurant,purchase,pos,Atlanta,0
+TXN-0000399,CUST-00347,1993.62,2024-12-12T17:48:59,cryptocurrency,purchase,mobile_app,Boston,1
+TXN-0000400,CUST-00233,195.8,2024-10-06T09:21:14,healthcare,payment,online,Atlanta,0
+TXN-0000401,CUST-00115,62.6,2024-11-16T03:36:03,restaurant,purchase,online,Dallas,0
+TXN-0000402,CUST-00431,38.94,2024-04-28T22:35:53,gas_station,payment,mobile_app,Miami,0
+TXN-0000403,CUST-00124,30.29,2024-06-05T11:51:55,entertainment,purchase,pos,Denver,0
+TXN-0000404,CUST-00025,0.5,2024-09-21T22:22:16,grocery,purchase,online,Austin,0
+TXN-0000405,CUST-00499,114.69,2024-05-07T11:24:49,grocery,purchase,pos,San Antonio,0
+TXN-0000406,CUST-00106,89.99,2024-12-03T16:54:26,healthcare,purchase,mobile_app,Atlanta,0
+TXN-0000407,CUST-00400,51.48,2024-05-04T09:27:42,online_retail,purchase,pos,Boston,0
+TXN-0000408,CUST-00150,227.44,2024-09-25T19:14:51,electronics,payment,online,Denver,0
+TXN-0000409,CUST-00397,303.6,2024-03-27T21:25:49,electronics,purchase,mobile_app,Chicago,0
+TXN-0000410,CUST-00392,180.98,2024-01-03T16:55:03,utilities,purchase,mobile_app,Philadelphia,0
+TXN-0000411,CUST-00231,0.5,2024-02-07T07:06:47,clothing,purchase,pos,Houston,0
+TXN-0000412,CUST-00089,121.77,2024-03-09T17:38:43,entertainment,payment,pos,Denver,0
+TXN-0000413,CUST-00156,63.33,2024-10-31T18:30:22,restaurant,payment,atm,Los Angeles,0
+TXN-0000414,CUST-00010,50.79,2024-07-09T15:12:24,gas_station,purchase,mobile_app,San Diego,0
+TXN-0000415,CUST-00278,71.43,2024-03-26T22:03:45,gas_station,purchase,online,New York,0
+TXN-0000416,CUST-00102,30.99,2024-11-26T17:39:21,entertainment,purchase,online,Denver,0
+TXN-0000417,CUST-00337,557.6,2024-02-17T15:36:44,electronics,purchase,pos,Phoenix,0
+TXN-0000418,CUST-00045,17.98,2024-10-29T21:45:58,entertainment,purchase,mobile_app,Boston,0
+TXN-0000419,CUST-00159,38.37,2024-01-12T16:48:29,clothing,purchase,mobile_app,Atlanta,0
+TXN-0000420,CUST-00299,316.56,2024-10-18T14:31:45,healthcare,purchase,mobile_app,New York,0
+TXN-0000421,CUST-00380,288.66,2024-08-11T08:58:02,healthcare,purchase,online,New York,0
+TXN-0000422,CUST-00320,35.58,2024-02-26T20:04:10,gas_station,purchase,online,Phoenix,0
+TXN-0000423,CUST-00234,78.36,2024-05-30T16:38:32,gas_station,payment,mobile_app,San Diego,0
+TXN-0000424,CUST-00277,122.68,2024-03-21T12:53:58,utilities,payment,online,Atlanta,0
+TXN-0000425,CUST-00137,204.36,2024-07-23T20:06:24,healthcare,payment,online,New York,0
+TXN-0000426,CUST-00373,58.11,2024-07-07T13:28:33,gas_station,purchase,atm,Philadelphia,0
+TXN-0000427,CUST-00243,168.36,2024-02-09T14:08:04,clothing,purchase,pos,Los Angeles,0
+TXN-0000428,CUST-00072,0.5,2024-07-05T14:09:09,clothing,payment,online,San Antonio,0
+TXN-0000429,CUST-00155,411.75,2024-02-23T11:41:13,electronics,payment,mobile_app,Austin,0
+TXN-0000430,CUST-00214,61.71,2024-03-26T17:31:22,entertainment,purchase,atm,Atlanta,0
+TXN-0000431,CUST-00179,156.88,2024-06-09T18:20:40,entertainment,purchase,mobile_app,San Diego,0
+TXN-0000432,CUST-00446,21.28,2024-09-09T11:41:51,restaurant,payment,pos,Phoenix,0
+TXN-0000433,CUST-00217,22.65,2024-04-27T03:06:54,clothing,purchase,pos,New York,0
+TXN-0000434,CUST-00221,72.74,2024-02-22T18:26:59,restaurant,purchase,pos,San Antonio,0
+TXN-0000435,CUST-00027,84.92,2024-06-05T20:20:13,grocery,purchase,online,Denver,0
+TXN-0000436,CUST-00305,238.28,2024-11-01T12:16:59,healthcare,payment,mobile_app,Chicago,0
+TXN-0000437,CUST-00244,115.09,2024-07-21T19:34:34,clothing,purchase,atm,Austin,0
+TXN-0000438,CUST-00483,268.35,2024-09-07T17:20:06,healthcare,purchase,pos,Atlanta,0
+TXN-0000439,CUST-00006,115.4,2024-03-07T14:42:59,utilities,purchase,pos,Los Angeles,0
+TXN-0000440,CUST-00373,43.79,2024-03-17T19:31:59,restaurant,purchase,mobile_app,Philadelphia,0
+TXN-0000441,CUST-00409,306.87,2024-09-09T08:53:26,electronics,purchase,online,New York,0
+TXN-0000442,CUST-00428,559.19,2024-05-01T11:00:57,electronics,purchase,phone,New York,0
+TXN-0000443,CUST-00139,3.06,2024-11-06T09:50:57,gas_station,purchase,online,San Antonio,0
+TXN-0000444,CUST-00325,261.69,2024-08-16T13:05:24,online_retail,purchase,pos,Houston,0
+TXN-0000445,CUST-00410,89.14,2024-07-31T15:56:30,entertainment,payment,pos,Chicago,0
+TXN-0000446,CUST-00107,207.68,2024-10-07T14:02:11,online_retail,purchase,mobile_app,Austin,0
+TXN-0000447,CUST-00182,66.79,2024-01-02T21:45:31,grocery,payment,pos,San Diego,0
+TXN-0000448,CUST-00103,30.46,2024-01-01T10:07:25,restaurant,payment,pos,Miami,0
+TXN-0000449,CUST-00492,0.5,2024-10-22T17:30:59,healthcare,purchase,pos,Atlanta,0
+TXN-0000450,CUST-00055,110.38,2024-01-08T09:42:36,grocery,purchase,online,New York,0
+TXN-0000451,CUST-00100,131.84,2024-09-14T11:24:35,online_retail,purchase,online,Denver,0
+TXN-0000452,CUST-00360,52.11,2024-07-31T11:08:37,gas_station,purchase,online,Denver,0
+TXN-0000453,CUST-00437,47.76,2024-11-30T21:07:15,utilities,payment,pos,Seattle,0
+TXN-0000454,CUST-00041,189.14,2024-02-27T07:13:22,healthcare,purchase,mobile_app,Houston,0
+TXN-0000455,CUST-00074,79.79,2024-06-16T14:25:03,gas_station,payment,pos,Miami,0
+TXN-0000456,CUST-00098,51.29,2024-03-29T17:45:15,restaurant,purchase,pos,Austin,0
+TXN-0000457,CUST-00233,418.94,2024-02-19T13:18:13,travel,purchase,online,Los Angeles,0
+TXN-0000458,CUST-00003,214.05,2024-01-09T14:29:01,utilities,purchase,pos,Los Angeles,0
+TXN-0000459,CUST-00024,84.05,2024-02-17T10:01:19,entertainment,purchase,pos,Atlanta,0
+TXN-0000460,CUST-00475,123.25,2024-10-29T07:35:29,utilities,purchase,online,Boston,0
+TXN-0000461,CUST-00283,56.8,2024-08-11T20:06:56,restaurant,purchase,pos,San Diego,0
+TXN-0000462,CUST-00430,418.29,2024-02-27T14:18:10,travel,purchase,pos,Los Angeles,0
+TXN-0000463,CUST-00012,170.24,2024-06-30T20:29:49,healthcare,purchase,online,Atlanta,0
+TXN-0000464,CUST-00017,60.79,2024-11-13T22:26:23,entertainment,purchase,online,Los Angeles,0
+TXN-0000465,CUST-00425,88.55,2024-09-23T12:48:31,grocery,purchase,online,Chicago,0
+TXN-0000466,CUST-00472,69.43,2024-06-11T19:48:31,entertainment,purchase,mobile_app,San Antonio,0
+TXN-0000467,CUST-00129,84.13,2024-12-12T13:00:29,clothing,payment,online,Austin,0
+TXN-0000468,CUST-00197,0.5,2024-04-04T19:54:08,grocery,purchase,online,Denver,0
+TXN-0000469,CUST-00262,239.68,2024-08-12T20:46:34,online_retail,purchase,mobile_app,Chicago,0
+TXN-0000470,CUST-00028,86.21,2024-03-09T13:32:14,clothing,purchase,atm,Dallas,0
+TXN-0000471,CUST-00175,79.01,2024-02-24T15:25:03,restaurant,purchase,online,San Antonio,0
+TXN-0000472,CUST-00112,72.92,2024-08-18T19:12:20,utilities,purchase,online,Dallas,0
+TXN-0000473,CUST-00261,481.78,2024-02-07T04:08:21,travel,purchase,pos,Chicago,0
+TXN-0000474,CUST-00192,168.33,2024-11-12T16:38:10,healthcare,purchase,online,Austin,0
+TXN-0000475,CUST-00121,249.69,2024-10-31T23:02:22,online_retail,purchase,pos,Foreign-B,1
+TXN-0000476,CUST-00429,44.15,2024-01-29T13:13:04,grocery,purchase,pos,Miami,0
+TXN-0000477,CUST-00269,403.45,2024-01-28T16:14:15,electronics,purchase,online,Dallas,0
+TXN-0000478,CUST-00249,398.71,2024-08-27T18:05:17,healthcare,purchase,mobile_app,New York,0
+TXN-0000479,CUST-00408,47.3,2024-11-16T23:38:15,grocery,purchase,pos,Boston,0
+TXN-0000480,CUST-00413,779.52,2024-06-07T11:30:24,electronics,purchase,online,Los Angeles,0
+TXN-0000481,CUST-00092,20.72,2024-04-01T10:49:50,gas_station,purchase,mobile_app,Denver,0
+TXN-0000482,CUST-00131,119.6,2024-05-09T17:27:29,entertainment,payment,mobile_app,Dallas,0
+TXN-0000483,CUST-00162,397.18,2024-04-09T07:51:39,electronics,payment,pos,San Antonio,0
+TXN-0000484,CUST-00419,594.51,2024-10-01T16:28:57,travel,payment,phone,San Diego,0
+TXN-0000485,CUST-00364,86.17,2024-01-16T17:59:53,clothing,purchase,online,Los Angeles,0
+TXN-0000486,CUST-00097,148.5,2024-03-19T16:18:35,electronics,purchase,pos,Miami,0
+TXN-0000487,CUST-00205,61.51,2024-11-25T19:16:24,restaurant,purchase,pos,Houston,0
+TXN-0000488,CUST-00135,84.41,2024-04-09T12:48:35,grocery,payment,pos,Phoenix,0
+TXN-0000489,CUST-00120,255.78,2024-04-05T15:04:14,utilities,purchase,online,San Antonio,0
+TXN-0000490,CUST-00023,248.72,2024-08-22T10:48:00,electronics,purchase,online,Seattle,0
+TXN-0000491,CUST-00022,282.74,2024-06-06T15:05:03,electronics,purchase,online,Chicago,0
+TXN-0000492,CUST-00374,65.43,2024-04-02T07:00:11,electronics,purchase,pos,Seattle,0
+TXN-0000493,CUST-00154,64.7,2024-10-13T14:49:56,grocery,purchase,online,San Antonio,0
+TXN-0000494,CUST-00092,22.34,2024-08-09T17:44:47,gas_station,purchase,mobile_app,Denver,0
+TXN-0000495,CUST-00097,20.28,2024-01-10T17:12:23,restaurant,purchase,online,Miami,0
+TXN-0000496,CUST-00400,670.96,2024-04-13T10:44:50,electronics,purchase,phone,Boston,0
+TXN-0000497,CUST-00219,35.28,2024-04-09T15:44:00,gas_station,purchase,atm,Seattle,0
+TXN-0000498,CUST-00227,122.09,2024-09-30T21:15:42,utilities,payment,atm,Dallas,0
+TXN-0000499,CUST-00127,0.5,2024-12-03T12:52:12,entertainment,payment,pos,Atlanta,0
+TXN-0000500,CUST-00033,663.89,2024-12-01T19:46:58,electronics,payment,mobile_app,Dallas,0
+TXN-0000501,CUST-00013,152.93,2024-02-23T17:51:10,entertainment,payment,pos,Atlanta,0
+TXN-0000502,CUST-00138,22.75,2024-03-06T10:15:39,grocery,purchase,online,Philadelphia,0
+TXN-0000503,CUST-00166,6.9,2024-09-09T15:21:46,clothing,payment,online,Phoenix,0
+TXN-0000504,CUST-00393,32.68,2024-08-07T14:17:58,gas_station,purchase,online,Dallas,0
+TXN-0000505,CUST-00403,437.43,2024-03-13T18:06:06,electronics,purchase,mobile_app,Boston,0
+TXN-0000506,CUST-00013,48.59,2024-07-06T11:25:34,entertainment,purchase,pos,Atlanta,0
+TXN-0000507,CUST-00102,17.97,2024-03-21T11:04:33,online_retail,payment,pos,Denver,0
+TXN-0000508,CUST-00427,84.62,2024-10-08T18:28:23,restaurant,purchase,atm,Denver,0
+TXN-0000509,CUST-00124,163.54,2024-12-13T04:42:10,clothing,purchase,mobile_app,Denver,0
+TXN-0000510,CUST-00365,209.53,2024-10-19T14:09:02,utilities,purchase,mobile_app,San Diego,0
+TXN-0000511,CUST-00434,202.68,2024-01-23T19:08:38,electronics,payment,online,San Antonio,0
+TXN-0000512,CUST-00372,197.72,2024-05-25T17:46:22,electronics,payment,pos,San Antonio,0
+TXN-0000513,CUST-00088,63.71,2024-08-11T20:36:18,grocery,payment,pos,Atlanta,0
+TXN-0000514,CUST-00225,227.21,2024-03-16T11:31:10,healthcare,purchase,atm,Phoenix,0
+TXN-0000515,CUST-00261,62.05,2024-07-04T22:58:56,entertainment,purchase,online,Chicago,0
+TXN-0000516,CUST-00170,0.5,2024-07-18T15:41:39,healthcare,payment,atm,Los Angeles,0
+TXN-0000517,CUST-00289,74.71,2024-07-15T20:45:10,grocery,purchase,atm,Denver,0
+TXN-0000518,CUST-00071,127.09,2024-11-08T13:46:25,grocery,purchase,online,Foreign-B,1
+TXN-0000519,CUST-00489,59.89,2024-06-17T13:15:42,restaurant,purchase,online,Austin,0
+TXN-0000520,CUST-00294,24.01,2024-02-23T11:52:07,gas_station,purchase,pos,Dallas,0
+TXN-0000521,CUST-00324,74.65,2024-03-18T18:31:11,grocery,purchase,online,San Antonio,0
+TXN-0000522,CUST-00288,135.83,2024-02-28T15:55:30,online_retail,purchase,online,Dallas,0
+TXN-0000523,CUST-00255,14.27,2024-04-26T14:25:27,restaurant,purchase,mobile_app,Chicago,0
+TXN-0000524,CUST-00135,95.13,2024-10-09T08:35:33,grocery,payment,online,Phoenix,0
+TXN-0000525,CUST-00094,187.84,2024-09-14T10:54:15,online_retail,purchase,pos,Seattle,0
+TXN-0000526,CUST-00349,366.14,2024-09-18T19:28:37,electronics,purchase,pos,Chicago,0
+TXN-0000527,CUST-00178,212.05,2024-07-23T17:10:05,clothing,purchase,online,Seattle,0
+TXN-0000528,CUST-00212,25.69,2024-05-23T13:13:03,restaurant,purchase,online,Atlanta,0
+TXN-0000529,CUST-00144,509.98,2024-03-29T14:49:48,electronics,purchase,online,Boston,0
+TXN-0000530,CUST-00427,60.27,2024-01-20T08:50:47,restaurant,purchase,online,Denver,0
+TXN-0000531,CUST-00436,17.97,2024-09-04T15:10:29,restaurant,purchase,mobile_app,Dallas,0
+TXN-0000532,CUST-00266,350.93,2024-07-01T07:21:13,electronics,purchase,online,San Antonio,0
+TXN-0000533,CUST-00261,0.5,2024-12-03T11:02:50,online_retail,payment,pos,Chicago,0
+TXN-0000534,CUST-00072,0.5,2024-12-30T13:02:33,clothing,purchase,mobile_app,Philadelphia,0
+TXN-0000535,CUST-00380,115.76,2024-02-16T19:50:13,clothing,purchase,atm,New York,0
+TXN-0000536,CUST-00207,396.09,2024-01-02T19:36:54,electronics,payment,mobile_app,Boston,0
+TXN-0000537,CUST-00321,26.86,2024-06-17T08:15:35,restaurant,purchase,mobile_app,Los Angeles,0
+TXN-0000538,CUST-00246,185.37,2024-08-13T22:16:19,healthcare,payment,pos,Atlanta,0
+TXN-0000539,CUST-00350,19.72,2024-03-18T10:14:24,online_retail,purchase,online,San Diego,0
+TXN-0000540,CUST-00043,23.64,2024-03-12T15:02:49,restaurant,payment,atm,Philadelphia,0
+TXN-0000541,CUST-00467,577.81,2024-10-18T09:52:15,electronics,purchase,online,Dallas,0
+TXN-0000542,CUST-00193,77.49,2024-10-26T18:09:03,entertainment,purchase,mobile_app,Philadelphia,0
+TXN-0000543,CUST-00009,502.2,2024-10-04T13:42:32,electronics,payment,pos,Los Angeles,0
+TXN-0000544,CUST-00380,49.02,2024-07-30T14:56:08,clothing,purchase,mobile_app,New York,0
+TXN-0000545,CUST-00186,168.23,2024-01-22T23:17:09,utilities,payment,pos,Philadelphia,0
+TXN-0000546,CUST-00156,26.42,2024-04-28T06:31:11,restaurant,purchase,online,Los Angeles,0
+TXN-0000547,CUST-00241,16.57,2024-07-27T20:34:42,restaurant,purchase,pos,Dallas,0
+TXN-0000548,CUST-00132,110.12,2024-08-05T18:47:31,healthcare,purchase,online,Los Angeles,0
+TXN-0000549,CUST-00122,475.27,2024-03-17T10:35:58,electronics,purchase,online,Austin,0
+TXN-0000550,CUST-00129,162.76,2024-02-19T08:05:20,clothing,purchase,pos,Austin,0
+TXN-0000551,CUST-00356,151.84,2024-09-28T12:55:18,clothing,purchase,mobile_app,Chicago,0
+TXN-0000552,CUST-00425,230.74,2024-09-28T11:41:37,healthcare,purchase,mobile_app,Chicago,0
+TXN-0000553,CUST-00374,719.87,2024-01-27T18:50:45,electronics,payment,online,Seattle,0
+TXN-0000554,CUST-00212,57.81,2024-03-27T06:01:19,clothing,purchase,mobile_app,Atlanta,0
+TXN-0000555,CUST-00000,76.66,2024-11-12T14:56:08,clothing,purchase,pos,Los Angeles,0
+TXN-0000556,CUST-00164,40.84,2024-09-02T09:35:41,travel,purchase,mobile_app,San Antonio,0
+TXN-0000557,CUST-00310,33.13,2024-01-04T12:01:35,entertainment,purchase,online,Austin,0
+TXN-0000558,CUST-00137,296.43,2024-08-12T14:55:54,electronics,purchase,pos,New York,0
+TXN-0000559,CUST-00275,51.88,2024-08-13T10:53:44,electronics,purchase,mobile_app,San Diego,0
+TXN-0000560,CUST-00159,133.09,2024-04-03T07:12:34,clothing,purchase,pos,Atlanta,0
+TXN-0000561,CUST-00140,60.49,2024-05-11T03:18:55,gas_station,purchase,online,Los Angeles,1
+TXN-0000562,CUST-00442,774.17,2024-12-07T13:10:58,electronics,purchase,pos,Los Angeles,0
+TXN-0000563,CUST-00283,72.31,2024-06-08T10:25:07,gas_station,purchase,online,San Diego,0
+TXN-0000564,CUST-00240,84.52,2024-03-27T20:09:30,grocery,payment,pos,San Diego,0
+TXN-0000565,CUST-00026,717.43,2024-08-05T14:33:21,electronics,purchase,mobile_app,San Antonio,0
+TXN-0000566,CUST-00309,0.5,2024-01-23T13:36:00,online_retail,purchase,pos,Miami,0
+TXN-0000567,CUST-00473,160.43,2024-08-25T14:38:24,utilities,purchase,online,San Diego,0
+TXN-0000568,CUST-00378,28.21,2024-12-30T18:42:19,clothing,purchase,pos,Philadelphia,0
+TXN-0000569,CUST-00217,284.25,2024-06-12T07:00:16,healthcare,purchase,mobile_app,Los Angeles,0
+TXN-0000570,CUST-00427,376.73,2024-08-21T19:35:20,healthcare,purchase,mobile_app,Denver,0
+TXN-0000571,CUST-00110,126.19,2024-06-13T19:45:45,entertainment,purchase,atm,Phoenix,0
+TXN-0000572,CUST-00002,1016.36,2024-12-24T13:36:52,travel,purchase,pos,Austin,0
+TXN-0000573,CUST-00258,128.67,2024-01-01T17:03:55,utilities,purchase,pos,Miami,0
+TXN-0000574,CUST-00363,50.02,2024-12-30T09:04:24,gas_station,payment,pos,Seattle,0
+TXN-0000575,CUST-00129,67.37,2024-06-02T06:26:24,restaurant,purchase,pos,Austin,0
+TXN-0000576,CUST-00076,99.92,2024-10-10T20:47:34,clothing,purchase,pos,Phoenix,0
+TXN-0000577,CUST-00253,71.94,2024-08-15T13:15:09,clothing,purchase,pos,Phoenix,0
+TXN-0000578,CUST-00226,15.3,2024-05-28T19:52:56,utilities,payment,online,Denver,0
+TXN-0000579,CUST-00081,0.9,2024-10-12T09:05:52,restaurant,purchase,atm,San Antonio,0
+TXN-0000580,CUST-00025,430.5,2024-05-05T14:01:50,travel,purchase,mobile_app,Austin,0
+TXN-0000581,CUST-00382,99.23,2024-11-04T13:07:33,clothing,purchase,online,Boston,0
+TXN-0000582,CUST-00287,323.12,2024-06-27T17:16:26,electronics,purchase,atm,Dallas,0
+TXN-0000583,CUST-00095,172.23,2024-12-26T10:46:46,online_retail,purchase,atm,Phoenix,0
+TXN-0000584,CUST-00367,71.49,2024-01-30T09:02:08,entertainment,purchase,phone,Phoenix,0
+TXN-0000585,CUST-00421,198.21,2024-06-09T13:10:31,clothing,payment,mobile_app,Miami,0
+TXN-0000586,CUST-00464,0.5,2024-05-12T09:55:52,healthcare,purchase,atm,New York,0
+TXN-0000587,CUST-00441,71.9,2024-01-16T09:22:58,gas_station,purchase,pos,Phoenix,0
+TXN-0000588,CUST-00046,505.56,2024-07-24T18:01:01,travel,purchase,mobile_app,San Antonio,0
+TXN-0000589,CUST-00329,250.66,2024-06-23T22:40:22,utilities,purchase,mobile_app,Dallas,0
+TXN-0000590,CUST-00283,0.5,2024-07-03T18:32:22,restaurant,purchase,pos,San Diego,0
+TXN-0000591,CUST-00264,41.43,2024-05-18T18:17:02,gas_station,purchase,pos,Boston,0
+TXN-0000592,CUST-00078,16.79,2024-06-13T19:36:26,gas_station,purchase,online,Dallas,0
+TXN-0000593,CUST-00381,143.56,2024-02-25T18:50:43,utilities,purchase,online,Boston,0
+TXN-0000594,CUST-00191,21.59,2024-07-10T13:51:17,grocery,purchase,mobile_app,Austin,0
+TXN-0000595,CUST-00032,1.0,2024-04-02T22:07:09,grocery,purchase,pos,Los Angeles,0
+TXN-0000596,CUST-00141,35.79,2024-05-27T11:31:10,gas_station,purchase,atm,Houston,0
+TXN-0000597,CUST-00285,77.8,2024-12-14T21:28:06,entertainment,purchase,atm,Boston,0
+TXN-0000598,CUST-00078,0.5,2024-04-27T14:13:18,travel,purchase,mobile_app,Dallas,0
+TXN-0000599,CUST-00045,299.1,2024-03-01T18:47:50,healthcare,purchase,online,Boston,0
+TXN-0000600,CUST-00192,62.73,2024-05-03T08:36:28,healthcare,purchase,mobile_app,Austin,0
+TXN-0000601,CUST-00311,45.4,2024-05-30T18:19:45,entertainment,payment,mobile_app,Miami,0
+TXN-0000602,CUST-00213,259.87,2024-10-13T17:26:09,healthcare,payment,pos,San Antonio,0
+TXN-0000603,CUST-00493,174.66,2024-08-29T09:19:40,electronics,purchase,online,Austin,0
+TXN-0000604,CUST-00344,30.89,2024-10-08T18:23:55,gas_station,payment,online,Seattle,0
+TXN-0000605,CUST-00204,475.46,2024-06-03T15:16:35,healthcare,purchase,pos,San Antonio,0
+TXN-0000606,CUST-00162,107.34,2024-03-04T15:38:31,grocery,purchase,mobile_app,San Antonio,0
+TXN-0000607,CUST-00109,54.13,2024-08-07T18:21:10,gas_station,purchase,online,Miami,0
+TXN-0000608,CUST-00053,805.64,2024-02-12T05:34:01,travel,purchase,pos,San Diego,0
+TXN-0000609,CUST-00460,45.67,2024-09-19T08:03:27,restaurant,purchase,mobile_app,Miami,0
+TXN-0000610,CUST-00262,38.21,2024-03-26T00:03:14,grocery,purchase,pos,Phoenix,0
+TXN-0000611,CUST-00092,72.91,2024-06-29T09:14:00,clothing,purchase,pos,Denver,0
+TXN-0000612,CUST-00050,193.24,2024-07-09T10:39:09,entertainment,purchase,pos,Austin,0
+TXN-0000613,CUST-00155,63.78,2024-08-18T19:37:13,grocery,purchase,atm,Austin,0
+TXN-0000614,CUST-00327,109.17,2024-07-03T17:42:23,grocery,purchase,online,New York,0
+TXN-0000615,CUST-00250,181.23,2024-12-11T09:35:38,utilities,payment,mobile_app,Chicago,0
+TXN-0000616,CUST-00396,134.65,2024-06-12T18:06:25,utilities,purchase,mobile_app,New York,0
+TXN-0000617,CUST-00073,195.85,2024-10-23T13:39:01,clothing,payment,mobile_app,Los Angeles,0
+TXN-0000618,CUST-00396,1700.72,2024-04-11T14:17:33,cryptocurrency,purchase,online,New York,1
+TXN-0000619,CUST-00449,21.46,2024-12-29T12:00:56,restaurant,purchase,pos,Phoenix,0
+TXN-0000620,CUST-00293,100.77,2024-04-18T17:19:07,clothing,purchase,pos,Phoenix,0
+TXN-0000621,CUST-00243,140.22,2024-08-09T18:36:44,utilities,purchase,atm,Austin,0
+TXN-0000622,CUST-00312,62.67,2024-09-11T00:29:26,gas_station,purchase,online,Dallas,0
+TXN-0000623,CUST-00202,0.5,2024-02-23T17:51:23,travel,purchase,pos,San Diego,0
+TXN-0000624,CUST-00379,64.31,2024-05-08T05:16:08,entertainment,payment,online,Houston,0
+TXN-0000625,CUST-00106,184.25,2024-01-03T22:27:16,healthcare,payment,online,Atlanta,0
+TXN-0000626,CUST-00210,154.11,2024-04-24T12:49:56,entertainment,purchase,online,Houston,0
+TXN-0000627,CUST-00073,335.9,2024-07-23T18:14:56,healthcare,purchase,pos,Dallas,0
+TXN-0000628,CUST-00474,503.62,2024-02-09T12:55:54,electronics,purchase,pos,Austin,0
+TXN-0000629,CUST-00167,22.05,2024-01-17T09:21:14,gas_station,purchase,online,Chicago,0
+TXN-0000630,CUST-00001,244.72,2024-05-05T12:56:12,online_retail,purchase,mobile_app,Atlanta,0
+TXN-0000631,CUST-00433,34.09,2024-01-09T20:18:56,gas_station,purchase,atm,Los Angeles,0
+TXN-0000632,CUST-00043,835.68,2024-07-05T11:08:18,travel,purchase,online,Philadelphia,0
+TXN-0000633,CUST-00135,58.05,2024-10-10T13:50:37,entertainment,purchase,mobile_app,Phoenix,0
+TXN-0000634,CUST-00111,54.8,2024-09-07T12:17:28,grocery,purchase,pos,Atlanta,0
+TXN-0000635,CUST-00000,164.5,2024-08-23T15:44:18,clothing,payment,atm,Los Angeles,0
+TXN-0000636,CUST-00463,838.52,2024-04-20T18:35:48,travel,purchase,mobile_app,San Antonio,0
+TXN-0000637,CUST-00161,141.96,2024-07-04T10:32:06,electronics,purchase,online,Los Angeles,0
+TXN-0000638,CUST-00144,47.04,2024-03-06T17:59:19,restaurant,purchase,pos,Dallas,0
+TXN-0000639,CUST-00054,539.87,2024-10-16T17:24:04,travel,purchase,pos,San Diego,0
+TXN-0000640,CUST-00090,422.38,2024-08-11T15:15:58,online_retail,payment,pos,San Antonio,0
+TXN-0000641,CUST-00483,119.26,2024-01-10T02:28:50,healthcare,payment,mobile_app,Atlanta,0
+TXN-0000642,CUST-00454,291.63,2024-10-16T13:59:19,healthcare,purchase,online,Miami,0
+TXN-0000643,CUST-00169,7.2,2024-07-25T15:25:53,entertainment,purchase,atm,New York,0
+TXN-0000644,CUST-00089,788.91,2024-12-30T14:31:55,travel,purchase,pos,Houston,0
+TXN-0000645,CUST-00169,42.59,2024-03-06T20:36:38,clothing,payment,pos,New York,0
+TXN-0000646,CUST-00435,18.0,2024-08-12T14:10:49,entertainment,purchase,mobile_app,Los Angeles,0
+TXN-0000647,CUST-00473,176.24,2024-11-25T19:29:26,utilities,purchase,mobile_app,San Diego,0
+TXN-0000648,CUST-00166,98.26,2024-11-18T19:56:10,clothing,payment,mobile_app,Phoenix,0
+TXN-0000649,CUST-00468,127.89,2024-05-27T20:58:52,online_retail,purchase,mobile_app,Chicago,0
+TXN-0000650,CUST-00005,95.98,2024-11-10T14:28:20,clothing,payment,mobile_app,Denver,0
+TXN-0000651,CUST-00488,325.96,2024-03-14T18:47:05,healthcare,payment,pos,Atlanta,0
+TXN-0000652,CUST-00228,0.5,2024-04-03T19:03:27,healthcare,purchase,mobile_app,Dallas,0
+TXN-0000653,CUST-00347,240.74,2024-08-31T11:52:42,electronics,payment,mobile_app,Boston,0
+TXN-0000654,CUST-00070,439.33,2024-04-19T11:05:59,travel,purchase,mobile_app,Atlanta,0
+TXN-0000655,CUST-00008,107.19,2024-09-20T12:30:54,utilities,purchase,pos,Houston,0
+TXN-0000656,CUST-00454,158.21,2024-01-28T14:11:33,healthcare,purchase,online,Dallas,0
+TXN-0000657,CUST-00466,132.4,2024-10-28T17:51:08,utilities,purchase,atm,Chicago,0
+TXN-0000658,CUST-00409,159.11,2024-06-18T10:27:58,clothing,payment,mobile_app,New York,0
+TXN-0000659,CUST-00420,64.46,2024-08-02T17:05:58,restaurant,purchase,pos,Seattle,0
+TXN-0000660,CUST-00045,62.33,2024-04-29T18:35:05,entertainment,payment,online,Boston,0
+TXN-0000661,CUST-00375,335.87,2024-05-04T14:31:40,electronics,purchase,pos,Los Angeles,0
+TXN-0000662,CUST-00275,2167.05,2024-08-25T08:15:27,jewelry,purchase,online,Miami,1
+TXN-0000663,CUST-00431,0.5,2024-09-27T20:30:21,online_retail,purchase,mobile_app,Atlanta,0
+TXN-0000664,CUST-00088,49.24,2024-12-27T14:01:53,restaurant,purchase,mobile_app,Atlanta,0
+TXN-0000665,CUST-00232,243.86,2024-02-15T17:59:17,utilities,purchase,mobile_app,San Antonio,0
+TXN-0000666,CUST-00039,75.78,2024-02-28T19:41:56,entertainment,purchase,pos,Chicago,0
+TXN-0000667,CUST-00493,188.77,2024-11-15T19:32:36,online_retail,purchase,mobile_app,Austin,0
+TXN-0000668,CUST-00239,375.23,2024-11-03T13:09:26,electronics,purchase,online,Austin,0
+TXN-0000669,CUST-00483,41.3,2024-11-12T18:21:53,online_retail,purchase,online,Atlanta,0
+TXN-0000670,CUST-00465,94.56,2024-10-22T15:34:14,clothing,purchase,online,Boston,0
+TXN-0000671,CUST-00111,0.5,2024-10-13T14:22:20,clothing,purchase,pos,Atlanta,0
+TXN-0000672,CUST-00399,116.85,2024-12-06T17:39:07,utilities,purchase,pos,Phoenix,0
+TXN-0000673,CUST-00341,135.55,2024-10-04T11:55:40,electronics,payment,atm,Phoenix,0
+TXN-0000674,CUST-00266,291.21,2024-01-04T23:29:23,electronics,purchase,online,San Antonio,0
+TXN-0000675,CUST-00145,522.38,2024-12-01T16:41:37,travel,purchase,online,Denver,0
+TXN-0000676,CUST-00158,406.79,2024-07-11T17:16:26,electronics,purchase,mobile_app,San Diego,0
+TXN-0000677,CUST-00394,22.03,2024-05-04T06:45:15,gas_station,payment,phone,Miami,0
+TXN-0000678,CUST-00303,1108.62,2024-07-14T10:46:35,travel,purchase,mobile_app,Seattle,0
+TXN-0000679,CUST-00241,272.7,2024-07-24T10:41:31,healthcare,purchase,mobile_app,Dallas,0
+TXN-0000680,CUST-00174,35.05,2024-10-31T14:28:21,grocery,purchase,atm,Miami,0
+TXN-0000681,CUST-00408,505.88,2024-11-24T09:47:05,travel,purchase,online,Boston,0
+TXN-0000682,CUST-00480,41.87,2024-12-17T12:24:38,restaurant,purchase,phone,Phoenix,0
+TXN-0000683,CUST-00465,21.3,2024-07-02T11:52:16,restaurant,purchase,online,San Diego,0
+TXN-0000684,CUST-00273,203.2,2024-04-14T07:21:50,healthcare,payment,online,Boston,0
+TXN-0000685,CUST-00172,141.16,2024-07-13T12:17:48,utilities,purchase,online,Dallas,0
+TXN-0000686,CUST-00109,45.44,2024-08-29T09:56:47,gas_station,purchase,mobile_app,Miami,0
+TXN-0000687,CUST-00428,91.41,2024-11-19T21:09:48,electronics,purchase,online,New York,0
+TXN-0000688,CUST-00342,0.5,2024-10-14T08:32:35,healthcare,payment,online,Austin,0
+TXN-0000689,CUST-00043,1.97,2024-09-20T10:24:35,restaurant,payment,mobile_app,Phoenix,0
+TXN-0000690,CUST-00033,186.11,2024-04-08T14:30:50,entertainment,purchase,online,Dallas,0
+TXN-0000691,CUST-00259,1.28,2024-12-20T19:48:12,grocery,purchase,online,Dallas,0
+TXN-0000692,CUST-00033,298.35,2024-04-26T14:02:43,electronics,purchase,atm,Dallas,0
+TXN-0000693,CUST-00127,71.76,2024-07-31T13:12:30,entertainment,purchase,online,Philadelphia,0
+TXN-0000694,CUST-00327,16.75,2024-08-01T21:51:04,gas_station,payment,atm,New York,0
+TXN-0000695,CUST-00100,39.93,2024-01-31T13:09:35,restaurant,purchase,online,Denver,0
+TXN-0000696,CUST-00411,268.18,2024-10-01T00:46:11,healthcare,purchase,online,Atlanta,0
+TXN-0000697,CUST-00483,160.68,2024-01-20T13:34:56,healthcare,purchase,online,Atlanta,0
+TXN-0000698,CUST-00124,9.02,2024-10-24T14:55:36,restaurant,purchase,online,Denver,0
+TXN-0000699,CUST-00042,44.93,2024-10-09T08:19:00,online_retail,purchase,pos,Miami,0
+TXN-0000700,CUST-00034,2.42,2024-09-09T11:11:06,entertainment,purchase,pos,Seattle,0
+TXN-0000701,CUST-00210,216.84,2024-09-01T15:57:39,clothing,purchase,pos,Houston,0
+TXN-0000702,CUST-00164,201.8,2024-09-15T12:47:09,online_retail,payment,mobile_app,San Antonio,0
+TXN-0000703,CUST-00384,42.8,2024-04-12T13:10:03,entertainment,payment,online,Los Angeles,0
+TXN-0000704,CUST-00448,141.69,2024-04-23T13:01:19,restaurant,purchase,online,San Diego,0
+TXN-0000705,CUST-00053,69.1,2024-06-08T09:58:48,restaurant,payment,pos,San Diego,0
+TXN-0000706,CUST-00372,72.36,2024-12-06T15:09:32,restaurant,purchase,mobile_app,San Antonio,0
+TXN-0000707,CUST-00358,0.5,2024-11-15T11:44:30,clothing,purchase,pos,Los Angeles,0
+TXN-0000708,CUST-00402,96.79,2024-06-26T14:49:09,travel,purchase,online,Phoenix,0
+TXN-0000709,CUST-00195,32.19,2024-07-20T10:55:14,grocery,payment,atm,Los Angeles,0
+TXN-0000710,CUST-00237,28.3,2024-03-22T10:09:31,gas_station,purchase,mobile_app,San Antonio,0
+TXN-0000711,CUST-00260,0.5,2024-02-17T12:37:06,restaurant,payment,online,Atlanta,0
+TXN-0000712,CUST-00222,381.43,2024-01-08T18:51:38,healthcare,purchase,mobile_app,Miami,0
+TXN-0000713,CUST-00252,147.39,2024-12-25T14:28:26,entertainment,purchase,mobile_app,Chicago,0
+TXN-0000714,CUST-00016,98.04,2024-05-25T13:32:49,online_retail,purchase,phone,San Diego,0
+TXN-0000715,CUST-00393,8.7,2024-04-18T15:20:29,entertainment,payment,mobile_app,Dallas,0
+TXN-0000716,CUST-00487,216.62,2024-03-30T13:13:51,electronics,purchase,mobile_app,San Diego,0
+TXN-0000717,CUST-00031,919.71,2024-05-20T17:41:11,travel,purchase,online,Houston,0
+TXN-0000718,CUST-00435,198.49,2024-02-25T20:12:57,entertainment,purchase,online,Los Angeles,0
+TXN-0000719,CUST-00262,53.68,2024-11-28T22:06:00,online_retail,purchase,pos,Phoenix,0
+TXN-0000720,CUST-00203,51.38,2024-05-01T15:40:30,gas_station,purchase,mobile_app,Miami,0
+TXN-0000721,CUST-00368,30.89,2024-02-07T11:19:42,grocery,purchase,mobile_app,New York,0
+TXN-0000722,CUST-00129,37.46,2024-05-14T23:52:46,restaurant,payment,pos,Chicago,0
+TXN-0000723,CUST-00234,50.92,2024-01-11T12:13:11,gas_station,purchase,online,San Diego,0
+TXN-0000724,CUST-00315,16.32,2024-01-17T07:35:40,gas_station,purchase,pos,Los Angeles,0
+TXN-0000725,CUST-00077,47.17,2024-09-07T13:09:33,gas_station,purchase,online,Houston,0
+TXN-0000726,CUST-00298,52.78,2024-06-07T11:40:57,gas_station,purchase,phone,Phoenix,0
+TXN-0000727,CUST-00347,608.19,2024-02-20T17:27:04,travel,purchase,online,Boston,0
+TXN-0000728,CUST-00164,131.14,2024-11-22T08:02:30,utilities,payment,online,San Antonio,0
+TXN-0000729,CUST-00341,0.5,2024-03-20T13:02:59,electronics,purchase,online,Philadelphia,0
+TXN-0000730,CUST-00407,307.66,2024-03-05T18:16:27,healthcare,payment,pos,Chicago,0
+TXN-0000731,CUST-00494,71.43,2024-01-24T14:51:21,restaurant,purchase,online,San Diego,0
+TXN-0000732,CUST-00275,277.88,2024-10-31T12:57:39,online_retail,purchase,online,San Diego,0
+TXN-0000733,CUST-00191,199.7,2024-07-09T17:56:38,utilities,purchase,mobile_app,Austin,0
+TXN-0000734,CUST-00169,0.5,2024-02-19T10:39:09,entertainment,purchase,mobile_app,New York,0
+TXN-0000735,CUST-00390,83.14,2024-10-08T09:41:53,entertainment,purchase,online,Atlanta,0
+TXN-0000736,CUST-00347,483.06,2024-01-13T11:50:55,electronics,purchase,pos,Boston,0
+TXN-0000737,CUST-00207,887.92,2024-08-25T13:33:56,travel,purchase,atm,Houston,0
+TXN-0000738,CUST-00173,38.79,2024-05-27T13:26:14,travel,purchase,online,Miami,0
+TXN-0000739,CUST-00017,50.02,2024-04-12T09:02:52,gas_station,purchase,pos,Los Angeles,0
+TXN-0000740,CUST-00329,387.97,2024-07-11T15:03:13,electronics,payment,phone,Dallas,0
+TXN-0000741,CUST-00167,36.0,2024-03-26T12:48:15,gas_station,payment,pos,Chicago,0
+TXN-0000742,CUST-00152,156.6,2024-06-23T06:38:37,healthcare,payment,atm,Seattle,0
+TXN-0000743,CUST-00012,0.5,2024-06-03T13:55:52,entertainment,purchase,mobile_app,Atlanta,0
+TXN-0000744,CUST-00235,188.98,2024-09-23T11:45:20,healthcare,payment,atm,Miami,0
+TXN-0000745,CUST-00083,173.22,2024-04-03T08:56:36,utilities,purchase,online,Philadelphia,0
+TXN-0000746,CUST-00467,93.94,2024-08-02T11:53:50,electronics,purchase,atm,Miami,0
+TXN-0000747,CUST-00001,24.82,2024-07-27T21:16:30,gas_station,purchase,online,Atlanta,0
+TXN-0000748,CUST-00281,412.87,2024-12-19T16:29:47,electronics,purchase,mobile_app,San Diego,0
+TXN-0000749,CUST-00307,182.16,2024-01-29T09:32:01,online_retail,purchase,pos,Denver,0
+TXN-0000750,CUST-00155,90.86,2024-11-01T12:14:02,entertainment,purchase,pos,Austin,0
+TXN-0000751,CUST-00428,80.46,2024-09-05T19:32:08,online_retail,purchase,mobile_app,New York,0
+TXN-0000752,CUST-00114,154.58,2024-03-17T09:30:43,grocery,purchase,mobile_app,San Diego,0
+TXN-0000753,CUST-00377,58.3,2024-01-14T15:30:38,online_retail,purchase,pos,Phoenix,0
+TXN-0000754,CUST-00104,61.1,2024-11-08T16:45:04,grocery,payment,online,Atlanta,0
+TXN-0000755,CUST-00367,1183.81,2024-03-14T19:13:12,travel,purchase,mobile_app,Phoenix,0
+TXN-0000756,CUST-00466,103.43,2024-03-23T20:11:52,online_retail,purchase,online,Chicago,0
+TXN-0000757,CUST-00048,58.67,2024-02-08T11:41:30,healthcare,payment,pos,Miami,0
+TXN-0000758,CUST-00358,43.03,2024-04-14T16:39:19,restaurant,purchase,atm,Los Angeles,0
+TXN-0000759,CUST-00316,84.64,2024-12-09T16:45:52,gas_station,purchase,phone,Miami,0
+TXN-0000760,CUST-00418,113.67,2024-01-30T18:54:47,online_retail,purchase,atm,Phoenix,0
+TXN-0000761,CUST-00303,237.91,2024-06-07T18:24:30,utilities,purchase,mobile_app,Boston,0
+TXN-0000762,CUST-00425,213.64,2024-11-11T12:08:16,online_retail,purchase,mobile_app,Chicago,0
+TXN-0000763,CUST-00451,102.28,2024-11-05T20:35:55,healthcare,purchase,online,Seattle,0
+TXN-0000764,CUST-00371,78.96,2024-12-12T20:43:46,restaurant,purchase,mobile_app,Los Angeles,0
+TXN-0000765,CUST-00313,89.9,2024-01-07T10:09:24,grocery,purchase,online,Phoenix,0
+TXN-0000766,CUST-00224,59.71,2024-09-17T18:14:02,grocery,payment,mobile_app,Austin,0
+TXN-0000767,CUST-00146,24.67,2024-12-06T17:53:42,gas_station,purchase,online,Austin,1
+TXN-0000768,CUST-00037,463.74,2024-05-11T22:32:41,travel,purchase,pos,Denver,0
+TXN-0000769,CUST-00469,180.54,2024-06-05T16:30:54,utilities,purchase,online,Seattle,0
+TXN-0000770,CUST-00307,132.4,2024-10-12T17:41:48,online_retail,purchase,online,Dallas,0
+TXN-0000771,CUST-00003,164.82,2024-06-25T13:14:08,utilities,purchase,mobile_app,San Antonio,0
+TXN-0000772,CUST-00445,40.1,2024-04-26T18:16:59,gas_station,purchase,mobile_app,Austin,0
+TXN-0000773,CUST-00359,101.32,2024-12-04T23:38:23,entertainment,purchase,mobile_app,Atlanta,0
+TXN-0000774,CUST-00035,54.07,2024-05-02T11:03:39,entertainment,purchase,online,New York,0
+TXN-0000775,CUST-00181,138.62,2024-09-08T15:08:20,online_retail,purchase,online,Houston,0
+TXN-0000776,CUST-00441,58.39,2024-09-22T11:20:58,gas_station,purchase,mobile_app,Phoenix,0
+TXN-0000777,CUST-00388,116.62,2024-02-08T14:50:06,travel,payment,pos,San Diego,0
+TXN-0000778,CUST-00074,684.09,2024-11-08T18:57:40,electronics,purchase,mobile_app,Miami,0
+TXN-0000779,CUST-00166,38.72,2024-03-02T20:06:30,gas_station,payment,pos,Phoenix,0
+TXN-0000780,CUST-00099,140.58,2024-03-17T13:05:23,utilities,payment,pos,Chicago,0
+TXN-0000781,CUST-00099,207.99,2024-09-22T11:42:47,entertainment,purchase,mobile_app,Chicago,0
+TXN-0000782,CUST-00178,63.76,2024-11-16T17:27:18,clothing,purchase,phone,Houston,0
+TXN-0000783,CUST-00336,47.89,2024-01-03T13:07:30,healthcare,purchase,online,Boston,0
+TXN-0000784,CUST-00337,84.7,2024-04-01T18:31:56,healthcare,purchase,mobile_app,Phoenix,0
+TXN-0000785,CUST-00115,46.97,2024-05-31T12:51:08,restaurant,payment,online,Dallas,0
+TXN-0000786,CUST-00416,306.86,2024-08-20T16:22:52,healthcare,purchase,online,Denver,0
+TXN-0000787,CUST-00274,34.0,2024-02-16T10:54:55,gas_station,payment,pos,San Antonio,0
+TXN-0000788,CUST-00109,207.21,2024-06-23T07:14:35,clothing,purchase,mobile_app,Miami,0
+TXN-0000789,CUST-00469,77.02,2024-08-17T18:13:39,grocery,payment,pos,Seattle,0
+TXN-0000790,CUST-00101,362.23,2024-11-29T16:37:21,electronics,purchase,mobile_app,Austin,0
+TXN-0000791,CUST-00230,0.5,2024-10-26T18:13:42,gas_station,purchase,pos,San Antonio,0
+TXN-0000792,CUST-00310,103.64,2024-06-22T03:37:05,restaurant,purchase,online,New York,1
+TXN-0000793,CUST-00149,48.46,2024-10-02T12:36:13,grocery,purchase,pos,New York,0
+TXN-0000794,CUST-00333,52.46,2024-11-08T21:16:30,gas_station,purchase,pos,Los Angeles,0
+TXN-0000795,CUST-00319,28.53,2024-02-20T10:32:13,grocery,purchase,online,Atlanta,0
+TXN-0000796,CUST-00275,242.44,2024-06-03T16:41:32,online_retail,purchase,online,San Diego,0
+TXN-0000797,CUST-00160,28.84,2024-01-10T19:58:43,gas_station,purchase,online,Boston,0
+TXN-0000798,CUST-00407,105.07,2024-10-26T15:01:23,grocery,purchase,mobile_app,Chicago,0
+TXN-0000799,CUST-00017,13.57,2024-06-01T14:34:09,gas_station,purchase,mobile_app,New York,0
+TXN-0000800,CUST-00007,42.03,2024-01-26T18:06:09,entertainment,purchase,pos,Miami,0
+TXN-0000801,CUST-00040,90.79,2024-08-01T17:17:26,grocery,purchase,online,Chicago,0
+TXN-0000802,CUST-00057,405.66,2024-06-21T09:41:36,healthcare,purchase,online,Chicago,0
+TXN-0000803,CUST-00413,111.26,2024-07-18T15:09:13,online_retail,purchase,atm,Los Angeles,0
+TXN-0000804,CUST-00309,214.76,2024-09-11T08:08:37,clothing,purchase,mobile_app,Los Angeles,0
+TXN-0000805,CUST-00182,167.13,2024-02-28T21:30:32,online_retail,purchase,online,San Diego,0
+TXN-0000806,CUST-00404,491.32,2024-04-09T13:37:19,travel,purchase,atm,New York,0
+TXN-0000807,CUST-00159,56.02,2024-08-25T13:10:37,clothing,payment,online,Atlanta,0
+TXN-0000808,CUST-00028,208.8,2024-07-10T13:34:33,electronics,purchase,pos,Atlanta,0
+TXN-0000809,CUST-00271,71.92,2024-09-11T10:15:10,grocery,purchase,online,New York,0
+TXN-0000810,CUST-00349,300.08,2024-05-20T17:44:52,electronics,purchase,online,Miami,0
+TXN-0000811,CUST-00388,414.12,2024-05-17T09:27:45,electronics,purchase,mobile_app,Seattle,0
+TXN-0000812,CUST-00124,21.97,2024-06-08T14:27:34,restaurant,payment,online,Denver,0
+TXN-0000813,CUST-00235,124.45,2024-06-03T20:06:36,utilities,purchase,online,Miami,0
+TXN-0000814,CUST-00304,157.36,2024-04-08T14:15:07,clothing,purchase,phone,Houston,0
+TXN-0000815,CUST-00069,174.92,2024-06-05T20:46:20,online_retail,payment,atm,San Diego,0
+TXN-0000816,CUST-00077,586.04,2024-01-27T07:31:34,travel,payment,mobile_app,Houston,0
+TXN-0000817,CUST-00288,130.05,2024-01-10T09:20:57,utilities,purchase,online,Dallas,0
+TXN-0000818,CUST-00379,83.41,2024-07-28T11:49:10,grocery,purchase,mobile_app,Houston,0
+TXN-0000819,CUST-00296,114.19,2024-09-30T20:09:13,utilities,purchase,atm,Seattle,0
+TXN-0000820,CUST-00110,152.02,2024-12-07T09:14:31,utilities,purchase,pos,Phoenix,0
+TXN-0000821,CUST-00118,111.09,2024-01-27T17:44:04,utilities,payment,atm,Seattle,0
+TXN-0000822,CUST-00282,41.19,2024-07-04T17:46:43,entertainment,purchase,mobile_app,Miami,0
+TXN-0000823,CUST-00381,4.61,2024-04-17T20:41:09,electronics,payment,atm,Boston,0
+TXN-0000824,CUST-00269,81.42,2024-09-13T15:32:14,online_retail,purchase,pos,Dallas,0
+TXN-0000825,CUST-00474,391.61,2024-09-09T16:49:47,electronics,purchase,mobile_app,Austin,0
+TXN-0000826,CUST-00018,60.1,2024-07-13T22:56:16,restaurant,purchase,pos,Denver,0
+TXN-0000827,CUST-00362,387.89,2024-07-11T20:27:58,electronics,payment,mobile_app,New York,0
+TXN-0000828,CUST-00468,0.5,2024-02-08T08:58:12,travel,payment,atm,San Antonio,0
+TXN-0000829,CUST-00305,63.15,2024-11-23T20:42:52,healthcare,payment,mobile_app,Chicago,0
+TXN-0000830,CUST-00489,0.5,2024-01-06T00:28:29,online_retail,purchase,pos,Austin,0
+TXN-0000831,CUST-00332,373.07,2024-03-20T18:23:32,electronics,payment,phone,Phoenix,0
+TXN-0000832,CUST-00207,919.31,2024-05-27T11:30:38,travel,purchase,mobile_app,Boston,0
+TXN-0000833,CUST-00131,0.5,2024-10-23T17:33:02,healthcare,purchase,pos,Dallas,0
+TXN-0000834,CUST-00300,448.0,2024-10-05T18:30:26,electronics,purchase,phone,Austin,0
+TXN-0000835,CUST-00316,549.17,2024-10-03T11:06:42,healthcare,purchase,online,Miami,0
+TXN-0000836,CUST-00087,93.72,2024-04-24T13:21:28,healthcare,purchase,atm,Dallas,0
+TXN-0000837,CUST-00103,0.5,2024-10-28T14:13:51,restaurant,purchase,mobile_app,New York,0
+TXN-0000838,CUST-00424,400.84,2024-03-23T05:56:21,electronics,purchase,mobile_app,San Antonio,0
+TXN-0000839,CUST-00468,47.5,2024-12-15T11:47:27,grocery,purchase,atm,Chicago,0
+TXN-0000840,CUST-00316,25.56,2024-02-29T16:36:21,gas_station,payment,atm,Miami,0
+TXN-0000841,CUST-00095,46.78,2024-07-21T13:19:17,gas_station,purchase,online,Phoenix,0
+TXN-0000842,CUST-00484,170.28,2024-06-12T10:06:16,clothing,payment,online,Philadelphia,0
+TXN-0000843,CUST-00344,401.18,2024-03-07T10:29:45,electronics,purchase,mobile_app,Seattle,0
+TXN-0000844,CUST-00023,415.62,2024-01-14T20:49:10,travel,purchase,phone,Seattle,0
+TXN-0000845,CUST-00083,97.8,2024-04-14T08:43:31,utilities,purchase,atm,Denver,0
+TXN-0000846,CUST-00303,597.7,2024-11-21T13:24:22,travel,purchase,mobile_app,Seattle,0
+TXN-0000847,CUST-00262,85.24,2024-10-10T13:45:29,grocery,payment,pos,Phoenix,0
+TXN-0000848,CUST-00292,0.91,2024-06-12T10:09:43,restaurant,payment,mobile_app,Boston,0
+TXN-0000849,CUST-00201,42.54,2024-01-30T22:19:45,gas_station,purchase,online,Seattle,0
+TXN-0000850,CUST-00095,362.92,2024-11-23T17:36:06,electronics,purchase,atm,Phoenix,0
+TXN-0000851,CUST-00431,28.81,2024-12-28T09:35:40,gas_station,payment,online,Atlanta,0
+TXN-0000852,CUST-00316,52.96,2024-01-09T20:17:43,gas_station,payment,mobile_app,Miami,0
+TXN-0000853,CUST-00166,97.52,2024-11-25T11:31:08,clothing,payment,mobile_app,Phoenix,0
+TXN-0000854,CUST-00201,20.26,2024-02-15T13:23:13,entertainment,purchase,phone,Phoenix,0
+TXN-0000855,CUST-00057,92.08,2024-07-24T07:20:04,healthcare,purchase,pos,Chicago,0
+TXN-0000856,CUST-00284,91.49,2024-06-09T18:08:46,grocery,purchase,pos,San Antonio,0
+TXN-0000857,CUST-00397,30.77,2024-03-24T09:13:44,clothing,purchase,online,Phoenix,0
+TXN-0000858,CUST-00493,87.19,2024-06-01T14:12:21,online_retail,purchase,mobile_app,Austin,0
+TXN-0000859,CUST-00478,76.22,2024-08-01T14:46:40,online_retail,payment,online,Denver,0
+TXN-0000860,CUST-00057,311.96,2024-04-19T11:37:01,healthcare,purchase,pos,Chicago,0
+TXN-0000861,CUST-00215,23.25,2024-03-20T12:16:16,online_retail,purchase,online,Phoenix,0
+TXN-0000862,CUST-00040,87.68,2024-04-10T11:39:45,grocery,payment,online,Boston,0
+TXN-0000863,CUST-00369,164.3,2024-09-18T15:24:11,healthcare,purchase,mobile_app,Atlanta,0
+TXN-0000864,CUST-00198,128.22,2024-08-15T22:22:36,healthcare,purchase,online,Philadelphia,0
+TXN-0000865,CUST-00351,296.91,2024-04-23T11:33:30,online_retail,purchase,mobile_app,New York,0
+TXN-0000866,CUST-00081,85.78,2024-08-01T23:17:01,clothing,payment,pos,San Antonio,0
+TXN-0000867,CUST-00301,10.63,2024-05-30T17:35:38,gas_station,purchase,atm,Denver,0
+TXN-0000868,CUST-00098,748.23,2024-10-06T20:55:50,electronics,purchase,atm,Austin,0
+TXN-0000869,CUST-00322,6.97,2024-07-04T20:58:17,gas_station,purchase,pos,Austin,0
+TXN-0000870,CUST-00498,54.72,2024-03-17T14:58:25,gas_station,purchase,mobile_app,Seattle,0
+TXN-0000871,CUST-00330,770.24,2024-06-06T13:41:34,travel,purchase,pos,Dallas,0
+TXN-0000872,CUST-00149,49.66,2024-01-13T15:55:40,restaurant,payment,atm,New York,0
+TXN-0000873,CUST-00268,81.3,2024-06-11T15:30:22,entertainment,purchase,mobile_app,Austin,0
+TXN-0000874,CUST-00235,126.87,2024-09-03T08:00:27,utilities,purchase,pos,Dallas,0
+TXN-0000875,CUST-00490,87.79,2024-02-13T12:18:46,clothing,purchase,online,Seattle,0
+TXN-0000876,CUST-00348,69.56,2024-12-15T16:24:15,utilities,payment,phone,Chicago,0
+TXN-0000877,CUST-00035,62.94,2024-01-23T09:04:15,online_retail,payment,online,San Antonio,0
+TXN-0000878,CUST-00207,11.06,2024-07-11T12:09:40,gas_station,purchase,online,Boston,0
+TXN-0000879,CUST-00374,153.94,2024-12-22T16:40:30,electronics,purchase,mobile_app,Seattle,0
+TXN-0000880,CUST-00354,83.72,2024-06-27T16:25:03,gas_station,purchase,online,Boston,0
+TXN-0000881,CUST-00417,30.31,2024-11-21T12:52:57,gas_station,payment,phone,Chicago,0
+TXN-0000882,CUST-00271,646.82,2024-05-29T19:44:33,travel,purchase,mobile_app,New York,0
+TXN-0000883,CUST-00236,150.42,2024-12-20T11:56:18,clothing,payment,mobile_app,Austin,0
+TXN-0000884,CUST-00165,149.66,2024-01-15T13:07:46,travel,purchase,mobile_app,Denver,0
+TXN-0000885,CUST-00093,14.36,2024-01-15T19:08:01,gas_station,payment,mobile_app,Philadelphia,0
+TXN-0000886,CUST-00292,89.87,2024-10-27T16:28:06,restaurant,purchase,online,Boston,0
+TXN-0000887,CUST-00397,353.34,2024-06-27T23:24:56,electronics,purchase,pos,Chicago,0
+TXN-0000888,CUST-00430,23.36,2024-10-21T10:33:32,gas_station,payment,online,Los Angeles,0
+TXN-0000889,CUST-00230,319.44,2024-06-16T11:51:02,online_retail,purchase,pos,San Antonio,0
+TXN-0000890,CUST-00190,148.42,2024-01-12T17:28:14,utilities,purchase,online,Miami,0
+TXN-0000891,CUST-00142,457.74,2024-04-07T06:35:03,healthcare,purchase,online,Boston,0
+TXN-0000892,CUST-00393,103.55,2024-02-22T15:37:21,entertainment,purchase,mobile_app,Dallas,0
+TXN-0000893,CUST-00045,139.43,2024-06-30T13:04:44,healthcare,purchase,pos,Chicago,0
+TXN-0000894,CUST-00354,0.5,2024-09-25T12:37:02,grocery,payment,pos,Boston,0
+TXN-0000895,CUST-00161,164.81,2024-07-27T07:03:42,online_retail,purchase,online,Austin,0
+TXN-0000896,CUST-00010,33.57,2024-02-02T14:57:43,gas_station,purchase,mobile_app,San Diego,0
+TXN-0000897,CUST-00084,44.14,2024-02-28T09:12:38,grocery,purchase,atm,Austin,0
+TXN-0000898,CUST-00297,0.5,2024-06-19T19:37:35,gas_station,purchase,atm,San Antonio,0
+TXN-0000899,CUST-00123,1340.94,2024-06-15T03:49:54,wire_transfer,transfer,mobile_app,San Diego,1
+TXN-0000900,CUST-00114,0.5,2024-06-15T20:23:34,electronics,purchase,phone,San Diego,0
+TXN-0000901,CUST-00097,0.5,2024-05-03T12:39:04,travel,purchase,mobile_app,Miami,0
+TXN-0000902,CUST-00326,83.82,2024-08-24T13:00:03,grocery,payment,pos,Houston,0
+TXN-0000903,CUST-00078,39.22,2024-02-07T17:49:59,gas_station,purchase,mobile_app,Dallas,0
+TXN-0000904,CUST-00305,159.44,2024-08-10T10:13:23,healthcare,purchase,mobile_app,Chicago,0
+TXN-0000905,CUST-00192,1185.73,2024-11-11T12:10:52,travel,purchase,online,Austin,0
+TXN-0000906,CUST-00384,55.82,2024-08-23T02:51:07,entertainment,purchase,mobile_app,New York,0
+TXN-0000907,CUST-00320,7.29,2024-09-10T19:16:44,restaurant,purchase,online,Phoenix,0
+TXN-0000908,CUST-00012,116.91,2024-11-30T16:34:54,utilities,purchase,online,Atlanta,0
+TXN-0000909,CUST-00150,31.38,2024-12-27T09:52:44,healthcare,payment,mobile_app,Denver,0
+TXN-0000910,CUST-00357,42.04,2024-02-18T13:59:28,gas_station,purchase,pos,Seattle,0
+TXN-0000911,CUST-00398,34.72,2024-12-24T16:34:57,grocery,purchase,pos,Phoenix,0
+TXN-0000912,CUST-00446,29.59,2024-03-24T16:48:40,restaurant,purchase,pos,Phoenix,0
+TXN-0000913,CUST-00340,176.96,2024-01-25T21:24:20,electronics,purchase,pos,Boston,0
+TXN-0000914,CUST-00252,93.76,2024-11-29T19:51:30,entertainment,purchase,mobile_app,Chicago,0
+TXN-0000915,CUST-00307,196.99,2024-05-16T08:24:10,online_retail,purchase,online,Dallas,0
+TXN-0000916,CUST-00163,56.79,2024-09-13T11:35:20,utilities,purchase,online,San Antonio,0
+TXN-0000917,CUST-00202,2782.89,2024-01-05T15:09:42,cryptocurrency,purchase,mobile_app,San Diego,1
+TXN-0000918,CUST-00064,117.2,2024-04-30T18:03:04,healthcare,purchase,mobile_app,San Antonio,0
+TXN-0000919,CUST-00415,142.98,2024-01-18T12:58:10,online_retail,purchase,online,Miami,0
+TXN-0000920,CUST-00067,61.62,2024-06-09T05:52:36,restaurant,purchase,online,Philadelphia,0
+TXN-0000921,CUST-00068,1304.37,2024-04-26T14:28:36,travel,payment,online,Los Angeles,0
+TXN-0000922,CUST-00215,63.35,2024-01-10T13:18:31,grocery,payment,pos,Phoenix,0
+TXN-0000923,CUST-00157,1160.31,2024-02-23T15:04:30,electronics,purchase,pos,Dallas,0
+TXN-0000924,CUST-00036,0.5,2024-01-04T09:00:09,online_retail,purchase,pos,Denver,0
+TXN-0000925,CUST-00363,136.29,2024-03-12T14:47:34,electronics,payment,online,Seattle,0
+TXN-0000926,CUST-00287,732.14,2024-07-26T10:18:42,electronics,payment,pos,Dallas,0
+TXN-0000927,CUST-00067,203.96,2024-07-22T19:49:00,online_retail,purchase,phone,Philadelphia,0
+TXN-0000928,CUST-00421,0.5,2024-12-04T21:16:01,healthcare,purchase,pos,Miami,0
+TXN-0000929,CUST-00025,841.7,2024-01-16T10:12:18,travel,purchase,pos,Austin,0
+TXN-0000930,CUST-00032,186.81,2024-01-11T17:38:34,healthcare,payment,mobile_app,Los Angeles,0
+TXN-0000931,CUST-00201,0.5,2024-06-11T14:17:40,entertainment,purchase,mobile_app,Seattle,0
+TXN-0000932,CUST-00116,74.57,2024-09-16T13:20:19,clothing,purchase,pos,New York,0
+TXN-0000933,CUST-00178,0.5,2024-01-06T16:53:41,clothing,payment,atm,Seattle,0
+TXN-0000934,CUST-00061,168.32,2024-03-28T18:54:57,utilities,purchase,mobile_app,Atlanta,0
+TXN-0000935,CUST-00256,134.1,2024-06-09T16:33:31,utilities,purchase,mobile_app,Miami,0
+TXN-0000936,CUST-00237,72.79,2024-09-04T10:45:00,restaurant,purchase,pos,San Antonio,0
+TXN-0000937,CUST-00182,149.79,2024-11-05T19:55:15,online_retail,purchase,pos,San Diego,0
+TXN-0000938,CUST-00313,71.2,2024-07-15T17:22:01,online_retail,purchase,online,Phoenix,0
+TXN-0000939,CUST-00187,75.68,2024-06-22T13:37:51,entertainment,purchase,atm,Philadelphia,0
+TXN-0000940,CUST-00446,18.71,2024-11-29T08:03:37,gas_station,payment,mobile_app,Phoenix,0
+TXN-0000941,CUST-00157,1564.41,2024-09-29T12:54:50,cryptocurrency,purchase,mobile_app,Austin,1
+TXN-0000942,CUST-00105,214.3,2024-08-27T18:41:50,utilities,payment,pos,Atlanta,0
+TXN-0000943,CUST-00047,652.37,2024-08-05T19:26:02,travel,purchase,online,Houston,0
+TXN-0000944,CUST-00122,77.19,2024-12-17T13:34:53,grocery,payment,pos,Austin,0
+TXN-0000945,CUST-00393,1700.96,2024-10-07T04:03:06,wire_transfer,transfer,atm,Dallas,1
+TXN-0000946,CUST-00354,116.09,2024-09-11T07:43:00,entertainment,purchase,atm,Boston,0
+TXN-0000947,CUST-00250,432.07,2024-09-24T13:59:02,travel,purchase,phone,Chicago,0
+TXN-0000948,CUST-00073,50.31,2024-10-10T15:53:18,restaurant,purchase,atm,Los Angeles,0
+TXN-0000949,CUST-00191,357.89,2024-10-04T08:19:58,electronics,purchase,online,Austin,0
+TXN-0000950,CUST-00250,94.87,2024-03-05T16:09:45,grocery,purchase,mobile_app,Chicago,0
+TXN-0000951,CUST-00400,392.58,2024-11-17T12:24:37,electronics,purchase,pos,Boston,0
+TXN-0000952,CUST-00446,65.55,2024-03-31T14:40:59,restaurant,payment,pos,Phoenix,0
+TXN-0000953,CUST-00035,0.5,2024-06-23T10:29:45,healthcare,purchase,phone,New York,0
+TXN-0000954,CUST-00057,30.94,2024-12-21T12:26:40,online_retail,payment,atm,Chicago,0
+TXN-0000955,CUST-00291,74.1,2024-03-14T17:36:26,restaurant,purchase,online,New York,0
+TXN-0000956,CUST-00325,212.6,2024-06-02T00:19:22,utilities,purchase,online,Houston,0
+TXN-0000957,CUST-00023,975.34,2024-08-02T18:00:27,travel,purchase,mobile_app,Seattle,0
+TXN-0000958,CUST-00094,143.92,2024-03-27T08:11:41,online_retail,purchase,mobile_app,Seattle,0
+TXN-0000959,CUST-00098,305.91,2024-07-02T10:07:11,electronics,purchase,online,Austin,0
+TXN-0000960,CUST-00447,107.92,2024-06-25T11:03:52,online_retail,purchase,online,Boston,0
+TXN-0000961,CUST-00275,138.56,2024-12-24T08:24:41,electronics,purchase,phone,San Diego,0
+TXN-0000962,CUST-00399,103.44,2024-08-20T16:30:32,grocery,purchase,mobile_app,Houston,0
+TXN-0000963,CUST-00386,18.29,2024-12-22T17:42:37,grocery,purchase,phone,Boston,0
+TXN-0000964,CUST-00363,67.92,2024-08-05T08:20:28,gas_station,purchase,online,Austin,0
+TXN-0000965,CUST-00017,29.76,2024-10-08T15:31:15,gas_station,purchase,pos,Los Angeles,0
+TXN-0000966,CUST-00148,38.58,2024-09-02T07:10:20,entertainment,purchase,mobile_app,Denver,0
+TXN-0000967,CUST-00415,424.36,2024-02-28T10:53:17,healthcare,payment,pos,Miami,0
+TXN-0000968,CUST-00008,121.26,2024-12-17T17:05:36,entertainment,purchase,online,Seattle,0
+TXN-0000969,CUST-00431,125.49,2024-01-16T16:57:00,healthcare,purchase,mobile_app,Atlanta,0
+TXN-0000970,CUST-00383,162.63,2024-12-05T15:03:51,utilities,purchase,pos,San Diego,0
+TXN-0000971,CUST-00409,273.45,2024-06-25T12:57:07,electronics,purchase,pos,New York,0
+TXN-0000972,CUST-00323,27.56,2024-11-15T11:48:09,gas_station,purchase,atm,Seattle,0
+TXN-0000973,CUST-00192,322.22,2024-08-01T13:12:36,travel,payment,atm,San Antonio,0
+TXN-0000974,CUST-00275,175.44,2024-07-31T13:37:32,electronics,purchase,pos,Seattle,0
+TXN-0000975,CUST-00211,104.81,2024-06-04T16:19:21,entertainment,purchase,mobile_app,Miami,0
+TXN-0000976,CUST-00307,56.53,2024-02-17T09:54:22,restaurant,purchase,phone,Dallas,0
+TXN-0000977,CUST-00356,31.03,2024-11-28T18:40:41,clothing,payment,online,Chicago,0
+TXN-0000978,CUST-00245,677.38,2024-03-08T19:17:54,electronics,payment,mobile_app,Los Angeles,0
+TXN-0000979,CUST-00102,119.16,2024-04-18T11:49:48,online_retail,payment,mobile_app,Denver,0
+TXN-0000980,CUST-00445,611.33,2024-12-02T10:07:52,travel,purchase,pos,Austin,0
+TXN-0000981,CUST-00488,318.44,2024-03-14T16:59:56,electronics,payment,atm,Atlanta,0
+TXN-0000982,CUST-00001,39.61,2024-09-22T22:56:59,gas_station,purchase,pos,Atlanta,0
+TXN-0000983,CUST-00035,0.5,2024-07-28T16:34:46,entertainment,payment,online,New York,0
+TXN-0000984,CUST-00020,120.51,2024-06-29T14:53:43,utilities,purchase,phone,San Diego,0
+TXN-0000985,CUST-00225,236.7,2024-05-26T20:46:08,healthcare,purchase,pos,Phoenix,0
+TXN-0000986,CUST-00120,191.4,2024-02-25T13:25:08,utilities,purchase,pos,Houston,0
+TXN-0000987,CUST-00442,305.04,2024-03-04T10:04:36,online_retail,purchase,atm,Los Angeles,0
+TXN-0000988,CUST-00345,56.51,2024-03-06T15:33:55,gas_station,purchase,pos,San Antonio,0
+TXN-0000989,CUST-00182,58.75,2024-12-29T17:54:03,clothing,purchase,mobile_app,San Diego,0
+TXN-0000990,CUST-00100,13.44,2024-06-11T06:01:26,restaurant,purchase,pos,Denver,0
+TXN-0000991,CUST-00435,87.03,2024-06-26T11:35:42,utilities,payment,pos,Chicago,0
+TXN-0000992,CUST-00034,0.5,2024-06-11T23:46:38,entertainment,purchase,atm,Seattle,0
+TXN-0000993,CUST-00396,279.68,2024-04-05T17:19:38,utilities,purchase,pos,New York,0
+TXN-0000994,CUST-00252,0.5,2024-03-26T12:02:59,travel,purchase,mobile_app,Chicago,0
+TXN-0000995,CUST-00413,83.6,2024-05-01T10:30:48,restaurant,purchase,online,San Antonio,0
+TXN-0000996,CUST-00038,126.15,2024-01-19T03:09:35,entertainment,purchase,atm,Phoenix,0
+TXN-0000997,CUST-00477,0.5,2024-04-23T15:19:08,online_retail,purchase,pos,New York,0
+TXN-0000998,CUST-00196,100.16,2024-12-30T11:28:07,restaurant,payment,atm,Philadelphia,0
+TXN-0000999,CUST-00371,43.73,2024-03-01T14:56:54,restaurant,purchase,mobile_app,Austin,0
