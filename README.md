@@ -1,3 +1,5 @@
+![CI](https://github.com/stabrea/fraud-detection-system/actions/workflows/ci.yml/badge.svg)
+
 # Fraud Detection System
 
 An end-to-end ML pipeline for detecting fraudulent financial transactions in real time. Built at the intersection of **cybersecurity** and **finance**, this system combines supervised classification (Random Forest) with unsupervised anomaly detection (Isolation Forest) to identify fraud patterns that neither approach catches alone.
