@@ -12,7 +12,7 @@ with open("requirements.txt", encoding="utf-8") as f:
 
 setup(
     name="fraud-detection-system",
-    version="1.0.0",
+    version="2.0.0",
     author="Taofik Bishi",
     author_email="taofik.bishi@example.com",
     description="ML-based financial fraud detection system combining supervised and unsupervised learning",
