@@ -45,6 +45,10 @@ data/generated_transactions.csv
 data/transactions.csv
 !data/sample_transactions.csv
 
+# Real datasets (too large for git)
+data/raw/
+*.zip
+
 # Coverage
 htmlcov/
 .coverage
