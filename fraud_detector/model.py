@@ -3,6 +3,9 @@ ML model training and evaluation for fraud detection.
 
 Combines a supervised Random Forest classifier with an unsupervised
 Isolation Forest for anomaly detection, producing a hybrid fraud score.
+
+Supports both random stratified splitting (for synthetic data) and
+temporal splitting (for real time-series data like the ULB dataset).
 """
 
 from __future__ import annotations
@@ -18,9 +21,11 @@ import pandas as pd
 from sklearn.ensemble import IsolationForest, RandomForestClassifier
 from sklearn.metrics import (
     accuracy_score,
+    average_precision_score,
     classification_report,
     confusion_matrix,
     f1_score,
+    precision_recall_curve,
     precision_score,
     recall_score,
     roc_auc_score,
@@ -37,21 +42,27 @@ class ModelMetrics:
     recall: float = 0.0
     f1: float = 0.0
     roc_auc: float = 0.0
+    pr_auc: float = 0.0
     confusion_matrix: Optional[np.ndarray] = None
     classification_report: str = ""
     cv_scores: list[float] = field(default_factory=list)
     feature_importances: dict[str, float] = field(default_factory=dict)
+    precision_curve: Optional[np.ndarray] = None
+    recall_curve: Optional[np.ndarray] = None
+    split_method: str = "random"
 
     def summary(self) -> str:
         """Return a human-readable summary."""
         lines = [
             "Model Performance Metrics",
             "=" * 40,
+            f"Split:     {self.split_method}",
             f"Accuracy:  {self.accuracy:.4f}",
             f"Precision: {self.precision:.4f}",
             f"Recall:    {self.recall:.4f}",
             f"F1 Score:  {self.f1:.4f}",
             f"ROC AUC:   {self.roc_auc:.4f}",
+            f"PR AUC:    {self.pr_auc:.4f}",
         ]
         if self.cv_scores:
             lines.append(
@@ -79,6 +90,7 @@ class FraudModel:
         rf_class_weight: Optional[str] = "balanced",
         test_size: float = 0.2,
         cv_folds: int = 5,
+        use_smote: bool = False,
     ) -> None:
         """
         Args:
@@ -89,6 +101,7 @@ class FraudModel:
                 ``"balanced"`` compensates for the low fraud rate.
             test_size: Fraction held out for evaluation.
             cv_folds: Number of stratified cross-validation folds.
+            use_smote: Whether to apply SMOTE to the training set.
         """
         self._rf = RandomForestClassifier(
             n_estimators=n_estimators,
@@ -108,6 +121,7 @@ class FraudModel:
         self._random_state = random_state
         self._test_size = test_size
         self._cv_folds = cv_folds
+        self._use_smote = use_smote
         self._feature_columns: list[str] = []
         self._trained: bool = False
         self._metrics: Optional[ModelMetrics] = None
@@ -121,6 +135,8 @@ class FraudModel:
         df: pd.DataFrame,
         feature_columns: list[str],
         target_column: str = "is_fraud",
+        temporal_split: bool = False,
+        time_column: Optional[str] = None,
     ) -> ModelMetrics:
         """Train both models and evaluate on a held-out split.
 
@@ -128,6 +144,12 @@ class FraudModel:
             df: Feature-enriched DataFrame.
             feature_columns: Column names to use as features.
             target_column: Binary label column (1 = fraud).
+            temporal_split: If True, use temporal ordering for
+                train/test split instead of random stratified split.
+                This is the correct approach for time-series fraud data.
+            time_column: Column to sort by for temporal split.
+                If None and temporal_split is True, uses the DataFrame
+                index order (assumes data is already sorted by time).
 
         Returns:
             ``ModelMetrics`` with evaluation results.
@@ -141,12 +163,30 @@ class FraudModel:
         # Replace any remaining NaN / inf
         X = np.nan_to_num(X, nan=0.0, posinf=0.0, neginf=0.0)
 
-        X_train, X_test, y_train, y_test = train_test_split(
-            X, y,
-            test_size=self._test_size,
-            random_state=self._random_state,
-            stratify=y,
-        )
+        if temporal_split:
+            # Sort by time column if provided
+            if time_column and time_column in df.columns:
+                sort_idx = df[time_column].values.argsort()
+                X = X[sort_idx]
+                y = y[sort_idx]
+
+            # Temporal split: first 80% train, last 20% test
+            split_idx = int(len(X) * (1 - self._test_size))
+            X_train, X_test = X[:split_idx], X[split_idx:]
+            y_train, y_test = y[:split_idx], y[split_idx:]
+            split_method = "temporal"
+        else:
+            X_train, X_test, y_train, y_test = train_test_split(
+                X, y,
+                test_size=self._test_size,
+                random_state=self._random_state,
+                stratify=y,
+            )
+            split_method = "random_stratified"
+
+        # --- Optional SMOTE on training set only ---
+        if self._use_smote:
+            X_train, y_train = self._apply_smote(X_train, y_train)
 
         # --- Supervised: Random Forest ---
         self._rf.fit(X_train, y_train)
@@ -158,28 +198,36 @@ class FraudModel:
         y_pred = self._rf.predict(X_test)
         y_proba = self._rf.predict_proba(X_test)[:, 1]
 
+        # Precision-recall curve
+        pr_precision, pr_recall, _ = precision_recall_curve(y_test, y_proba)
+
         metrics = ModelMetrics(
             accuracy=float(accuracy_score(y_test, y_pred)),
             precision=float(precision_score(y_test, y_pred, zero_division=0)),
             recall=float(recall_score(y_test, y_pred, zero_division=0)),
             f1=float(f1_score(y_test, y_pred, zero_division=0)),
             roc_auc=float(roc_auc_score(y_test, y_proba)),
+            pr_auc=float(average_precision_score(y_test, y_proba)),
             confusion_matrix=confusion_matrix(y_test, y_pred),
             classification_report=classification_report(
                 y_test, y_pred, target_names=["Legitimate", "Fraud"]
             ),
+            precision_curve=pr_precision,
+            recall_curve=pr_recall,
+            split_method=split_method,
         )
 
-        # Cross-validation on full dataset
-        cv = StratifiedKFold(
-            n_splits=self._cv_folds,
-            shuffle=True,
-            random_state=self._random_state,
-        )
-        cv_scores = cross_val_score(
-            self._rf, X, y, cv=cv, scoring="f1", n_jobs=-1
-        )
-        metrics.cv_scores = cv_scores.tolist()
+        # Cross-validation (only meaningful for non-temporal splits)
+        if not temporal_split:
+            cv = StratifiedKFold(
+                n_splits=self._cv_folds,
+                shuffle=True,
+                random_state=self._random_state,
+            )
+            cv_scores = cross_val_score(
+                self._rf, X, y, cv=cv, scoring="f1", n_jobs=-1
+            )
+            metrics.cv_scores = cv_scores.tolist()
 
         # Feature importances
         importances = self._rf.feature_importances_
@@ -291,6 +339,30 @@ class FraudModel:
     # ------------------------------------------------------------------
     # Internal
     # ------------------------------------------------------------------
+
+    def _apply_smote(
+        self, X: np.ndarray, y: np.ndarray
+    ) -> tuple[np.ndarray, np.ndarray]:
+        """Apply SMOTE oversampling to the training set only.
+
+        Falls back silently if imbalanced-learn is not installed.
+        """
+        try:
+            from imblearn.over_sampling import SMOTE
+
+            smote = SMOTE(random_state=self._random_state)
+            X_resampled, y_resampled = smote.fit_resample(X, y)
+            n_original = len(y)
+            n_resampled = len(y_resampled)
+            print(
+                f"  SMOTE: {n_original:,} -> {n_resampled:,} samples "
+                f"(+{n_resampled - n_original:,} synthetic fraud)"
+            )
+            return X_resampled, y_resampled
+        except ImportError:
+            print("  Warning: imbalanced-learn not installed, skipping SMOTE.")
+            print("  Install with: pip install imbalanced-learn")
+            return X, y
 
     def _assert_trained(self) -> None:
         if not self._trained:

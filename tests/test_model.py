@@ -64,8 +64,18 @@ def test_metrics_populated_after_training():
     assert 0.0 <= metrics.accuracy <= 1.0
     assert 0.0 <= metrics.f1 <= 1.0
     assert 0.0 <= metrics.roc_auc <= 1.0
+    assert 0.0 <= metrics.pr_auc <= 1.0
     assert len(metrics.cv_scores) == 2
     assert len(metrics.feature_importances) > 0
+
+
+def test_metrics_summary_includes_split_method():
+    df, feature_cols = _build_training_data(n=200)
+    model = FraudModel(n_estimators=10, cv_folds=2)
+    metrics = model.train(df, feature_cols)
+    summary = metrics.summary()
+    assert "Split:" in summary
+    assert "PR AUC:" in summary
 
 
 # ── Prediction output shape and range ────────────────────────────────
@@ -154,3 +164,40 @@ def test_predict_before_train_raises():
     X = np.zeros((5, 3))
     with pytest.raises(RuntimeError, match="not trained"):
         model.predict_proba(X)
+
+
+# ── Temporal splitting ───────────────────────────────────────────────
+
+
+def test_temporal_split_train():
+    df, feature_cols = _build_training_data(n=200)
+    model = FraudModel(n_estimators=10)
+    metrics = model.train(
+        df, feature_cols,
+        temporal_split=True,
+    )
+    assert metrics.split_method == "temporal"
+    # Temporal split should not have CV scores
+    assert len(metrics.cv_scores) == 0
+
+
+def test_random_split_train():
+    df, feature_cols = _build_training_data(n=200)
+    model = FraudModel(n_estimators=10, cv_folds=2)
+    metrics = model.train(
+        df, feature_cols,
+        temporal_split=False,
+    )
+    assert metrics.split_method == "random_stratified"
+    assert len(metrics.cv_scores) == 2
+
+
+# ── SMOTE ────────────────────────────────────────────────────────────
+
+
+def test_smote_training():
+    df, feature_cols = _build_training_data(n=200)
+    model = FraudModel(n_estimators=10, cv_folds=2, use_smote=True)
+    metrics = model.train(df, feature_cols)
+    assert isinstance(metrics, ModelMetrics)
+    assert metrics.roc_auc > 0.0
